@@ -2,4 +2,4 @@
 
 
 After abandoning the github pages blog, I had many static site generators and hosting providers recommended to me aside from Jekyll and GHPages. I had already tried Eleventy with GHPages and wanted to try that with Netlify. So, that is what I am doing.  
-This blog uses the [eleventy base blog]("https://github.com/11ty/eleventy-base-blog") as a framework.
+This blog uses the [eleventy base blog](https://github.com/11ty/eleventy-base-blog) as a framework.
