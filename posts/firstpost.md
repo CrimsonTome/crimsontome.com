@@ -1,7 +1,7 @@
 ---
 title:  Introduction to Raspberry Pi
 description: This is my first post, it is an introduction to Raspberry Pi.
-date: 15/10/2021
+date: 2021/10/15
 tags:
   - first post
   - raspberry pi
