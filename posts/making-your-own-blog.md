@@ -40,8 +40,4 @@ You can create your repo using a template (what I did) e.g Eleventy's base templ
 - Make sure ``Public`` is ticked, it should be by default
 - Keep ``Include all branches`` unticked (it's what I did, so some things may be different if you decide to tick it, I can't help with some things at that point)
 
-GitHub will then generate your repo using the eleventy base blog template. There will be a list of files generated, an important one being ``README.md``.  
-As the README states, you will need to ``Edit _data/metadata.json``. You will find this at <https://github.com/your-github-name/your-repo-name/blob/master/_data/metadata.json>  
-But first, let's head over to [Netlify](https://app.netlify.com/signup). You can use your email or GitHub login (I'd recommend using GH as that is what I did). Once logged in go to <https://app.netlify.com/start>, choose ``GitHub`` as the option for Continuous Deployment then select your repo you have created with the elventy template. Then click ``Deploy site``  
-
-Head to <https://app.netlify.com/sites/crimsontome/settings/general#site-details>
+GitHub will then generate your repo using the eleventy base blog template. There will be a list of files generated, an important one being ``README.md``. As the README states, you will need to ``Edit _data/metadata.json``. You will find this at <https://github.com/your-github-name/your-repo-name/blob/master/_data/metadata.json>. But first, let's head over to [Netlify](https://app.netlify.com/signup). You can use your email or GitHub login (I'd recommend using GH as that is what I did). Once logged in go to <https://app.netlify.com/start>, choose ``GitHub`` as the option for Continuous Deployment then select your repo you have created with the elventy template. Then click ``Deploy site``. Head to <https://app.netlify.com/sites/crimsontome/settings/general#site-details>
