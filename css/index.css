@@ -19,8 +19,10 @@ body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, system-ui, sans-serif;
-  color: var(--darkgray);
-  background-color: var(--white);
+  /*color: var(--darkgray);
+  background-color: var(--white);*/
+  color: #222;
+  background: #fff;
 }
 p:last-child {
   margin-bottom: 0;
@@ -35,10 +37,12 @@ p,
   line-height: 1.45;
 }
 a[href] {
-  color: var(--blue);
+  /*color: var(--blue);*/
+  color: #0033cc;
 }
 a[href]:visited {
-  color: var(--navy);
+  /*(color: var(--navy);*/
+  color: #0033cc;
 }
 main {
   padding: 1rem;
