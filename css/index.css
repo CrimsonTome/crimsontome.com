@@ -45,11 +45,6 @@ a[href]:visited {
   color: #809fff;
 }
 
-ol::before {
-  content: counter(li); color: #d5cece;
-  display: inline-block; width: 1em;
-  margin-left: -1em
-}
 main {
   padding: 1rem;
 }
@@ -178,11 +173,12 @@ code {
   content: "" counter(start-from, decimal-leading-zero) ". ";
   line-height: 100%;
   text-align: right;
+  color: #d5cece;
 }
 .postlist-date,
 .postlist-item:before {
   font-size: 0.8125em; /* 13px /16 */
-  color: var(--darkgray);
+  color: color: #d5cece;
 }
 .postlist-date {
   word-spacing: -0.5px;
