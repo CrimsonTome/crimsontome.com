@@ -40,4 +40,37 @@ You can create your repo using a template (what I did) e.g Eleventy's base templ
 - Make sure ``Public`` is ticked, it should be by default
 - Keep ``Include all branches`` unticked (it's what I did, so some things may be different if you decide to tick it, I can't help with some things at that point)
 
-GitHub will then generate your repo using the eleventy base blog template. There will be a list of files generated, an important one being ``README.md``. As the README states, you will need to ``Edit _data/metadata.json``. You will find this at ``https://github.com/your-github-name/your-repo-name/blob/master/_data/metadata.json``. But first, let's head over to [Netlify](https://app.netlify.com/signup). You can use your email or GitHub login (I'd recommend using GH as that is what I did). Once logged in go to <https://app.netlify.com/start>, choose ``GitHub`` as the option for Continuous Deployment then select your repo you have created with the elventy template. Then click ``Deploy site``. Head to ``https://app.netlify.com/sites/user-name/settings/general#site-details``
+GitHub will then generate your repo using the eleventy base blog template. There will be a list of files generated, an important one being ``README.md``. As the README states, you will need to ``Edit _data/metadata.json``. You will find this at ``https://github.com/your-github-name/your-repo-name/blob/master/_data/metadata.json``. But first, make sure you commit your changes if you've made any and let's head over to [Netlify](https://app.netlify.com/signup).  
+You can use your email or GitHub login (I'd recommend using GH as that is what I did). Once logged in go to <https://app.netlify.com/start>, choose ``GitHub`` as the option for Continuous Deployment then select your repo you have created with the elventy template. Then click ``Deploy site``. Head to ``https://app.netlify.com/sites/user-name/settings/general#site-details``. For now Netlify provides you with its own subdomain at ``subdomain.netlify.app`` but you can change it by presssing ``Change site name``.  
+Back to GitHub, remember `metadata.json`? You'll need to fill that in now to customise the template to match you.
+```
+{
+  "title": "Blog title",
+  "url": "https://subdomain-you-chose.netlify.app/",
+  "language": "en",
+  "description": "add a description here",
+  "feed": {
+    "subtitle": "add a subtitle here",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://subdomain-you-chose.netlify.app/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://subdomain-you-chose.netlify.app/feed/feed.json"
+  },
+  "author": {
+    "name": "your-name",
+    "email": "your-email,
+    "url": "hhtps://subdomain-you-chose.netlify.app/about-me/"
+  }
+}
+```  
+
+Make sure to commit your changes and then netlify should automatically rebuild your site. It shouldn't take more than a minute to do so.  
+You can add an about me page by editing ``/about/index.md``. Leave the stuff surrounded by.
+```
+'```
+
+```'
+```
