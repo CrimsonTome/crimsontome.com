@@ -21,8 +21,22 @@ First of all, if you want to use GitHub as the source for your code you'll need 
 
 ### Creating the repo
 
+You can either create your own from scratch and setup a framework later
+
 - Go to <https://github.com/new>
 - Under ``Repository name`` enter what you want the repo to be called e.g. my-blog
 - Under ``Description `` you can add a bit about your site, for example what it is about and how it is made
 - Make sure ``Public`` is ticked, it should be by default
 - You can tick ``Add a README file `` to go into more detail about your code if you wish. It is not completely necessary but may be useful for explaining your repo to other users or those that are interested but don't understand what exactly is going on by viewing the code itself
+- Click ``Create repository``
+
+**OR**
+
+You can create your repo using a template (what I did) e.g Eleventy's base template
+
+- Go to <https://github.com/11ty/eleventy-base-blog/generate>
+- Under ``Repository name`` enter what you want the repo to be called e.g. my-blog
+- Under ``Description `` you can add a bit about your site, for example what it is about and how it is made
+- Make sure ``Public`` is ticked, it should be by default
+- Keep ``Include all branches`` unticked (it's what I did, so some things may be different if you decide to tick it, I can't help with some things at that point)
+- 
