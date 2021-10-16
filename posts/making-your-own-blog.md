@@ -11,7 +11,7 @@ layout: layouts/post.njk
 ---
 
 
-Please note that I will be updating this as I go along. This is my **first** time using Netlify, as such I lack a lot of experience using the service so far. I have been using GitHub consistently since September 2021 so I am still relatively new to how everything works. If there are any issues you can log them [here](https://github.com/CrimsonTome/crimsontome-blog/issues), ping me on Discord: CrimsonTome427#7459 or send me and email at crimsontome427@gmail.com
+Please note that I will be updating this as I go along. This is my **first** time using Netlify, as such I lack a lot of experience using the service so far. I have been using GitHub consistently since September 2021 so I am still relatively new to how everything works. If there are any issues you can log them [here](https://github.com/CrimsonTome/crimsontome-blog/issues), ping me on Discord: `CrimsonTome427#7459` or send me and email at `crimsontome427@gmail.com`
 
 ## Still here?
 
