@@ -75,4 +75,4 @@ You can add an about me page by editing `/about/index.md`. Leave the front matte
 ---
 ```
 Now then, you'll probably want to make some blog posts, this is a blog repo that you're maiking after all right?   
-The Eleventy base blog template comes with a few in `/posts`, I'd recommend leaving the front matter except the tags, change them as you please. Oh and you can rename the filename, just keep at as `something.`**md**
+The Eleventy base blog template comes with a few in `/posts`, I'd recommend leaving the front matter except the tags, change them as you please. Oh and you can rename the file, just keep at as `something.`**md**
