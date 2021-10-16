@@ -45,7 +45,7 @@ a[href]:visited {
   color: #809fff;
 }
 
-li::before {
+ol::before {
   content: counter(li); color: #d5cece;
   display: inline-block; width: 1em;
   margin-left: -1em
