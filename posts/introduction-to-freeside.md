@@ -17,3 +17,8 @@ Unlike many groups at a university, there is **no** membership cost to become a 
 ## What do we do?
 Linux, seems a bit of a vague description doesn't it? How about I go into a little more detail.  
 Freeside provides an environment for everyone to learn more about Linux, open-source development, system administration, have experience with networking and career opportunities, social events / weekly virtual meet ups and access to the Freeside lab (Freeside Lab available to UoH students only).  
+## Where to find us?
+- On-site : Robert Blackburn Building Room 300 
+- [Discord](https://discord.gg/jE5VGjCu)
+- [GitHub](https://github.com/freesidehull)
+- [Freeside Website](https://freeside.co.uk/)
