@@ -7,4 +7,4 @@ tags:
   - uni
 layout: layouts/post.njk
 ---
-## Documenting my first few weeks at the University of Hull
+# Documenting my first few weeks at the University of Hull
