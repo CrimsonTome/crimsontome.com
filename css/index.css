@@ -93,8 +93,6 @@ pre {
 }
 code {
   word-break: break-all;
-  color: #eee;
-  background-color: #C0C0C0;;
 }
 .highlight-line {
   display: block;
