@@ -39,4 +39,6 @@ You can create your repo using a template (what I did) e.g Eleventy's base templ
 - Under ``Description `` you can add a bit about your site, for example what it is about and how it is made
 - Make sure ``Public`` is ticked, it should be by default
 - Keep ``Include all branches`` unticked (it's what I did, so some things may be different if you decide to tick it, I can't help with some things at that point)
-- 
+
+GitHub will then generate your repo using the eleventy base blog template. There will be a list of files generated, an important one being ``README.md``. 
+
