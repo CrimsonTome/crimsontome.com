@@ -1,3 +1,14 @@
+---
+title:  Making your own blog
+description: Second post, how to make your own blog using GitHub, Netlify and Eleventy.
+date: 2021-10-16
+tags:
+  - second post
+  - github
+  - netlify
+  - web development
+layout: layouts/post.njk
+---
 
 ## Making your own blog
 
