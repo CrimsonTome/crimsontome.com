@@ -16,3 +16,4 @@ Freeside is the student run Linux user group at the University of Hull.
 Unlike many groups at a university, there is **no** membership cost to become a member of Freeside. It is also irrelevant which course you are taking, everyone is welcome here - even if you don't attend the university! You can join the Freeside Discord server [here](https://discord.gg/jE5VGjCu).
 ## What do we do?
 Linux, seems a bit of a vague description doesn't it? How about I go into a little more detail.  
+
