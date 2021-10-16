@@ -3,7 +3,6 @@ title:  Welcome to Freeside
 description: Third post, an introduction to the Freeside society at the University of Hull.
 date: 2021-10-16
 tags:
-  - third post
   - freeside
   - uni
 layout: layouts/post.njk
