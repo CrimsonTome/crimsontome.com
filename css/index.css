@@ -71,7 +71,7 @@ pre,
 code {
   font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
   line-height: 1.5;
-  background-color: #C0C0C0;
+  background-color: #333;
 }
 pre {
   font-size: 14px;
@@ -91,7 +91,7 @@ pre {
   padding: 1em;
   margin: .5em 0;
   /*background-color: #f6f6f6;*/
-  background-color: #C0C0C0;
+  background-color: #333;
 }
 code {
   word-break: break-all;
