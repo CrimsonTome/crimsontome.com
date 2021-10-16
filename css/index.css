@@ -21,8 +21,8 @@ body {
   font-family: -apple-system, system-ui, sans-serif;
   /*color: var(--darkgray);
   background-color: var(--white);*/
-  color: var(--white);
-  background-color: var(--black);
+  color: #eee;
+  background-color: #121212;
 }
 p:last-child {
   margin-bottom: 0;
@@ -38,11 +38,11 @@ p,
 }
 a[href] {
   /*color: var(--blue);*/
-  color: #0033cc;
+  color: #809fff;
 }
 a[href]:visited {
   /*(color: var(--navy);*/
-  color: #0033cc;
+  color: #809fff;
 }
 main {
   padding: 1rem;
