@@ -10,17 +10,16 @@ tags:
 layout: layouts/post.njk
 ---
 
-## Making your own blog
 
 Please note that I will be updating this as I go along. This is my **first** time using Netlify, as such I lack a lot of experience using the service so far. I have been using GitHub consistently since September 2021 so I am still relatively new to how everything works. 
 
-### Still here?
+## Still here?
 
 Well, let's begin.
 
 First of all, if you want to use GitHub as the source for your code you'll need a repository(repo). If you're reading this then you may be new to GitHub like I was not so long ago.  
 
-#### Creating the repo
+### Creating the repo
 
 - Go to <https://github.com/new>
 - Under ``Repository name`` enter what you want the repo to be called e.g. my-blog
