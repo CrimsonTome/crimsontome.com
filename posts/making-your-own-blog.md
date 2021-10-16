@@ -68,11 +68,11 @@ Back to GitHub, remember `metadata.json`? You'll need to fill that in now to cus
 ```  
 
 Make sure to commit your changes and then netlify should automatically rebuild your site. It shouldn't take more than a minute to do so.  
-You can add an about me page by editing `/about/index.md`. Leave the stuff surrounded by.
+You can add an about me page by editing `/about/index.md`. Leave the front matter (stuff surrounded by):
 ```
-'```
+---
 
-```'
+---
 ```
-Now then, you'll probably want to make some blog posts, this is a blog repo that you're maiing after all right?   
-The Eleventy base blog template comes with a few in `/posts`
+Now then, you'll probably want to make some blog posts, this is a blog repo that you're maiking after all right?   
+The Eleventy base blog template comes with a few in `/posts`, I'd recommend leaving the front matter except the tags, change them as you please. Oh and you can rename the filename, just keep at as `something.`**md**
