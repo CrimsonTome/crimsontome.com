@@ -44,6 +44,10 @@ a[href]:visited {
   /*(color: var(--navy);*/
   color: #809fff;
 }
+
+ol {
+   color: #d5cece;
+}
 main {
   padding: 1rem;
 }
