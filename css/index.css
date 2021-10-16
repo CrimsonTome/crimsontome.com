@@ -21,8 +21,8 @@ body {
   font-family: -apple-system, system-ui, sans-serif;
   /*color: var(--darkgray);
   background-color: var(--white);*/
-  color: #222;
-  background: #fff;
+  color: var(--white);
+  background-color: var(--black);
 }
 p:last-child {
   margin-bottom: 0;
