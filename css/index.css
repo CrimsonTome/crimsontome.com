@@ -19,7 +19,7 @@ body {
   margin: 0;
   font-family: -apple-system, system-ui, sans-serif;
   color: var(--darkgray);
-  background-color: var(--white);
+  background-color: var(--navy);
 }
 p:last-child {
   margin-bottom: 0;
