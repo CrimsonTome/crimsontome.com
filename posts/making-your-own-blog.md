@@ -41,9 +41,12 @@ You can create your repo using a template (what I did) e.g Eleventy's base templ
 - Make sure `Public` is ticked, it should be by default
 - Keep `Include all branches` unticked (it's what I did, so some things may be different if you decide to tick it, I can't help with some things at that point)
 
+### Netlify config
+
 GitHub will then generate your repo using the eleventy base blog template. There will be a list of files generated, an important one being `README.md`. As the README states, you will need to `Edit _data/metadata.json`. You will find this at `https://github.com/your-github-name/your-repo-name/blob/master/_data/metadata.json`. But first, make sure you commit your changes if you've made any and let's head over to [Netlify](https://app.netlify.com/signup).  
 You can use your email or GitHub login (I'd recommend using GH as that is what I did). Once logged in go to <https://app.netlify.com/start>, choose `GitHub` as the option for Continuous Deployment then select your repo you have created with the elventy template. Then click `Deploy site`. Head to `https://app.netlify.com/sites/user-name/settings/general#site-details`. For now Netlify provides you with its own subdomain at `subdomain.netlify.app` but you can change it by presssing `Change site name`.  
-Back to GitHub, remember `metadata.json`? You'll need to fill that in now to customise the template to match you.
+### Back to GitHub
+Remember `metadata.json`? You'll need to fill that in now to customise the template to match you.
 ```
 {
   "title": "Blog title",
@@ -69,11 +72,12 @@ Back to GitHub, remember `metadata.json`? You'll need to fill that in now to cus
 ```  
 
 Make sure to commit your changes and then netlify should automatically rebuild your site. It shouldn't take more than a minute to do so.  
-You can add an about me page by editing `/about/index.md`. Leave the front matter (stuff surrounded by):
+You can add an about me page by editing `about/index.md`. Leave the front matter (stuff surrounded by):
 ```
 ---
 
 ---
 ```
 Now then, you'll probably want to make some blog posts, this is a blog repo that you're maiking after all right?   
-The Eleventy base blog template comes with a few in `/posts`, I'd recommend leaving the layout section in the front matter, change everything else as you please. Oh and you can rename the file, just keep at as `something.`**md**
+The Eleventy base blog template comes with a few in `/posts`, I'd recommend leaving the layout section in the front matter, change everything else as you please. Oh and you can rename the file, just keep at as `something.`**md**  
+If you know how to work with CSS then you can change the main stylesheet at `css/index.css`  
