@@ -15,6 +15,8 @@ Please note that I will be updating this as I go along. This is my **first** tim
 
 ## Still here?
 
+Please note that this guide assumes you're working in a browser rather than a terminal/command line.  
+
 Well, let's begin.
 
 First of all, if you want to use GitHub as the source for your code you'll need a repository(repo). If you're reading this then you may be new to GitHub like I was not so long ago.  
@@ -75,4 +77,4 @@ You can add an about me page by editing `/about/index.md`. Leave the front matte
 ---
 ```
 Now then, you'll probably want to make some blog posts, this is a blog repo that you're maiking after all right?   
-The Eleventy base blog template comes with a few in `/posts`, I'd recommend leaving the front matter except the tags, change them as you please. Oh and you can rename the file, just keep at as `something.`**md**
+The Eleventy base blog template comes with a few in `/posts`, I'd recommend leaving the layout section in the front matter, change everything else as you please. Oh and you can rename the file, just keep at as `something.`**md**
