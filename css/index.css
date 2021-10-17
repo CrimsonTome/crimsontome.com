@@ -23,6 +23,15 @@ body {
   background-color: var(--white);*/
   color: #eee;
   background-color: #121212;
+  /* Dark theme */
+  @media (prefers-color-scheme: dark) {
+    body { background: #333; color: #efefef; }
+    }
+/* Light theme */
+    @media (prefers-color-scheme: light),
+    (prefers-color-scheme: no-preference) {
+    body { background: #efefef; color: #333; }
+    }
 }
 p:last-child {
   margin-bottom: 0;
