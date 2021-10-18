@@ -1,0 +1,4 @@
+Sitemap: https://www.crimsontome.netlify.app/sitemap.xml
+
+User-agent: *
+Disallow:
