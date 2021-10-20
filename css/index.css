@@ -1,6 +1,6 @@
 /* Colors */
 :root {
-  --header: #fff;
+  --header: #333;
   --border: #C0C0C0;
   --text: #333;
   --visited: #17050F;
@@ -19,7 +19,7 @@
   */
 @media (prefers-color-scheme: dark) {
   :root {
-    --header: #fff;
+    --header: #333;
     --border: #C0C0C0;
     --text: #fff;
     --visited: #17050F;
