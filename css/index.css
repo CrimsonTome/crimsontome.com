@@ -17,16 +17,6 @@
 
   }
   */
-
-body {
-  color: #222;
-  background: #fff;
-  font: 100% system-ui;
-}
-a {
-  color: #0033cc;
-}
-
 @media (prefers-color-scheme: dark) {
   body {
     color: #eee;
