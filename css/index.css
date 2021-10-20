@@ -62,7 +62,7 @@ a[href] {
   color: var(--link);
 }
 a[href]:visited {
-  color: var(--visited);
+  color: var(--link);
 }
 main {
   padding: 1rem;
