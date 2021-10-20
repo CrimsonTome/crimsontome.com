@@ -72,7 +72,7 @@ main :first-child {
 }
 header {
   border-bottom: 1px dashed var(--header);
-  color: var(--header-text)
+  color: var(--text)
 }
 header:after {
   content: "";
