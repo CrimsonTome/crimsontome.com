@@ -39,8 +39,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, system-ui, sans-serif;
-  color: var(--darkgray);
-  background-color: var(--white);
+  color: var(--text);
+  background-color: var(--bg);
 }
 p:last-child {
   margin-bottom: 0;
@@ -55,10 +55,10 @@ p,
   line-height: 1.45;
 }
 a[href] {
-  color: var(--blue);
+  color: var(--link);
 }
 a[href]:visited {
-  color: var(--navy);
+  color: var(--visited);
 }
 main {
   padding: 1rem;
@@ -67,7 +67,7 @@ main :first-child {
   margin-top: 0;
 }
 header {
-  border-bottom: 1px dashed var(--lightgray);
+  border-bottom: 1px dashed var(--header);
 }
 header:after {
   content: "";
@@ -192,7 +192,7 @@ code {
 .postlist-date,
 .postlist-item:before {
   font-size: 0.8125em; /* 13px /16 */
-  color: var(--darkgray);
+  color: var(--text);
 }
 .postlist-date {
   word-spacing: -0.5px;
@@ -224,8 +224,8 @@ code {
   margin-left: 0.6666666666667em; /* 8px /12 */
   margin-top: 0.5em; /* 6px /12 */
   margin-bottom: 0.5em; /* 6px /12 */
-  color: var(--darkgray);
-  border: 1px solid var(--gray);
+  color: var(--text);
+  border: 1px solid var(--border);
   border-radius: 0.25em; /* 3px /12 */
   text-decoration: none;
   line-height: 1.8;
@@ -236,7 +236,7 @@ a[href].post-tag:visited {
 }
 a[href].post-tag:hover,
 a[href].post-tag:focus {
-  background-color: var(--lightgray);
+  background-color: var(--header);
 }
 .postlist-item > .post-tag {
   align-self: center;
