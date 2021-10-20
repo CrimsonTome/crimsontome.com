@@ -18,17 +18,17 @@
   }
   */
 @media (prefers-color-scheme: dark) {
-  body {
-    color: #eee;
-    background: #121212;
-  }
-
-  body a {
-    color: #809fff;
+  :root {
+    --header: #e0e0e0;
+    --border: #C0C0C0;
+    --text: #fff;
+    --visited: #17050F;
+    --link: #082840;
+    --bg: #333;
   }
 }
 
-}
+
 /* Global stylesheet */
 * {
   box-sizing: border-box;
