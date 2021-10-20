@@ -20,4 +20,4 @@ Freeside provides an environment for everyone to learn more about Linux, open-so
 - On-site : Robert Blackburn Building Room 300 
 - [Discord](https://discord.gg/jE5VGjCu)
 - [GitHub](https://github.com/freesidehull)
-- [Freeside Website](https://freeside.co.uk/)
+- [Freeside Website](https://freeside.co.uk/)  
