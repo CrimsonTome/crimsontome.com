@@ -1,4 +1,4 @@
-# CrimsonTome's BLog
+# CrimsonTome's Blog
 
 Netlify Status
 
