@@ -6,6 +6,7 @@
   --visited: #17050F;
   --link: #082840;
   --bg: #fff;
+  --code-bg: #f6f6f6;
 }
 /*@media (prefers-color-scheme: dark) {
   :root {
@@ -25,6 +26,7 @@
     --visited: #17050F;
     --link: #082840;
     --bg: #333;
+    --code-bg: #2f3136
   }
 }
 
@@ -105,7 +107,7 @@ pre {
   hyphens: none;
   padding: 1em;
   margin: .5em 0;
-  background-color: #f6f6f6;
+  background-color: var(--code-bg)
 }
 code {
   word-break: break-all;
