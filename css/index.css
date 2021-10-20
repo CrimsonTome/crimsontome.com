@@ -25,12 +25,12 @@ body {
   background-color: #121212;
   /* Dark theme */
   @media (prefers-color-scheme: dark) {
-    body { background: #333; color: #efefef; }
+    body { background-color: #121212; color: #eee; }
     }
 /* Light theme */
     @media (prefers-color-scheme: light),
     (prefers-color-scheme: no-preference) {
-    body { background: #efefef; color: #333; }
+    body { background-color: #eee; color: #121212; }
     }
 }
 p:last-child {
