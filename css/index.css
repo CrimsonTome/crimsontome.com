@@ -1,10 +1,10 @@
 /* Colors */
 :root {
-  --lightgray: #e0e0e0;
-  --gray: #C0C0C0;
+  --header: #e0e0e0;
+  --border: #C0C0C0;
   --text: #333;
-  --navy: #17050F;
-  --blue: #082840;
+  --visited: #17050F;
+  --link: #082840;
   --bg: #fff;
 }
 @media (prefers-color-scheme: dark) {
