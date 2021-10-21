@@ -11,4 +11,4 @@ For now the site forces a 'dark theme' - sorry to those who prefer their pages f
 
 Much of the documentation will be through blog posts rather than here, for now anyway. You can read the first blog [here](https://crimsontome.netlify.app/posts/making-your-own-blog/).
 
-See [CONTRIBUTING.md](CONTRIBUTING.md]) for information on adding to this repository.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for information on adding to this repository.
