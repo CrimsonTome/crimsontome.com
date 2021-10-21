@@ -10,3 +10,5 @@ This blog uses the [eleventy base blog](https://github.com/11ty/eleventy-base-bl
 For now the site forces a 'dark theme' - sorry to those who prefer their pages filled with brightness. I will eventually add both light and dark themes that will select based on your browser's preferences 😄  
 
 Much of the documentation will be through blog posts rather than here, for now anyway. You can read the first blog [here](https://crimsontome.netlify.app/posts/making-your-own-blog/).
+
+See [CONTRIBUTING.md](CONTRIBUTING.md]) for information on adding to this repository.
