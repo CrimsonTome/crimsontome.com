@@ -284,7 +284,7 @@ html, body {
   padding: 0px;
 }
 body {
-    background: linear-gradient(-45deg, #ee7752, #7c1387, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #7FFFD4, #00FFFF, #6495ED, #008B8B);
     background-size: 400% 400%;
     animation: gradient 25s ease infinite;
 }
