@@ -21,3 +21,11 @@ layout: layouts/post.njk
 - A powered USB hub (depending on requirements of your drive)
 - A case (optional)
 
+### What to do
+
+#### If your Pi doesnt have an OS installed yet
+
+- Go to <https://www.raspberrypi.com/software/>
+- Download the Raspberry Pi Imager for your operating system
+
+## If your Pi already has an OS installed
