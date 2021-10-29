@@ -111,7 +111,7 @@ pre {
   padding: 1em;
   margin: .5em 0;
   overflow-y: auto;
-  max-width: 400px;
+  max-width: 90vw;
 }
   /*background-color: var(--code-bg)*/
 }
