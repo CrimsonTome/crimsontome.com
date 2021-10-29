@@ -110,6 +110,9 @@ pre {
   hyphens: none;
   padding: 1em;
   margin: .5em 0;
+  overflow-y: auto;
+  max-width: 300px;
+}
   /*background-color: var(--code-bg)*/
 }
 code {
