@@ -12,4 +12,7 @@ I am a first year Computer Science student at the University of Hull.
 I studied Computer Science, Psychology and Sociology at York College.  
 I have little experience with Linux unless you count tinkering with a Raspberry Pi which i have been doing for 5 years now. I have only recently (August 2021) switched from Windows 10 to Ubuntu on my laptop and am now somewhat familiar with Linux.  
 If for some reason you need to contact me then my Discord is: CrimsonTome427#7459
-Or send me an email at crimsontome427@gmail.com
+Or send me an email at crimsontome427@gmail.com  
+
+You can buy me a coffee:  
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/I2I46RO0O)
