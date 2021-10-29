@@ -113,7 +113,7 @@ pre {
   /*background-color: var(--code-bg)*/
 }
 code {
-  word-break: break-all;
+  word-break: break-all !important;
 }
 .highlight-line {
   display: block;
