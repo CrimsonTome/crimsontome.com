@@ -100,4 +100,12 @@ The Pi Model 4B can be powerful enough to run some quite intensive things, given
 
 ### Some project ideas
 
+1. [Build a NAS](https://pimylifeup.com/raspberry-pi-nas/)
+2. [Setup Emulation Station (a personal favourite)](https://pimylifeup.com/raspberry-pi-emulation-station/)
+3. [Bitwarden](https://pimylifeup.com/raspberry-pi-bitwarden/)
+4. [Internet Speed Monitor](https://pimylifeup.com/raspberry-pi-internet-speed-monitor/)
+5. [Pi-hole](https://pimylifeup.com/raspberry-pi-pi-hole/)
+6. [Git server](https://pimylifeup.com/raspberry-pi-git-server/)
+7. [Projects from Raspberry Pi](https://projects.raspberrypi.org/en)
+
 *Resources compiled by various Freeside members, a huge thanks to everyone who helped!*
