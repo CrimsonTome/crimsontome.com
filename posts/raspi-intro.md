@@ -98,4 +98,6 @@ The Pi Model 4B can be powerful enough to run some quite intensive things, given
 17. [Pinout](https://pinout.xyz/)
 18. [SBRL blog](https://starbeamrainbowlabs.com/blog/article.php?article=posts/242-Learn-Your-Terminal.html)  
 
+### Some project ideas
+
 *Resources compiled by various Freeside members, a huge thanks to everyone who helped!*

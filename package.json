@@ -33,6 +33,7 @@
     "markdown-it-anchor": "^8.1.2"
   },
   "dependencies": {
-    "animate.css": "^4.1.1"
+    "animate.css": "^4.1.1",
+    "tailwindcss": "^2.2.19"
   }
 }
