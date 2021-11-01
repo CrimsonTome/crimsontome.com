@@ -66,7 +66,7 @@ Remember `metadata.json`? You'll need to fill that in now to customise the templ
   "author": {
     "name": "your-name",
     "email": "your-email,
-    "url": "hhtps://subdomain-you-chose.netlify.app/about-me/"
+    "url": "https://subdomain-you-chose.netlify.app/about-me/"
   }
 }
 ```  
