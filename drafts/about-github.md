@@ -4,11 +4,8 @@ description: An introduction to GitHub from someone who has only used it for a m
 date: 2021-10-20
 tags:
   - github
-  - draft
 layout: layouts/post.njk
 ---
-
-# This post is still in the draft phase, as such may not be complete / up to date
 
  <!-- __excludehullblogs__  <-- this string stops the blog from being posted on hullblogs.com. It will be removed once the post is out of draft phase -->
 
