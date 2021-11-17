@@ -6,6 +6,7 @@ tags:
   - freeside
   - uni
 layout: layouts/post.njk
+featuredImage: /img/freeside_square_path.svg
 ---
 
 This post will act as an informal introduction to Freeside
