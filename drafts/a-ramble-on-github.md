@@ -1,5 +1,5 @@
 ---
-title:  About Github
+title:  A ramble about GitHub
 description: An introduction to GitHub from someone who has only used it for a month
 date: 2021-10-20
 tags:
