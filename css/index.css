@@ -286,7 +286,7 @@ html, body{
   margin: 0;
   padding: 0px;
 }
-body {
+body {                                  /*new red gradient*/
     background: linear-gradient(-45deg, #dc1c13, #ea4c46, #f07470, #f6bdc0);
     background-size: 400% 400%;
     animation: gradient 20s ease infinite;
