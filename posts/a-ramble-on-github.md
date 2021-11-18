@@ -5,9 +5,9 @@ date: 2021-11-17
 tags:
   - github
 layout: layouts/post.njk
-featuredImage: img/GitHub_Logo_White.png
----
 
+---
+![GitHub Logo](/img/GitHub_Logo_White.png "GitHubLogo")
 
 ## A ramble about GitHub by someone fairly new to it
 ### (This may become a series of posts on GitHub)
