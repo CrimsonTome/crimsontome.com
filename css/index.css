@@ -287,7 +287,7 @@ html, body{
   padding: 0px;
 }
 body {                                  /*new crimson gradient*/
-    background: linear-gradient(-45deg, #db7f8e 25%, #7b0d1e 74%);
+    background: linear-gradient(-45deg, #da0f13, #ed3f3e);
     background-size: 400% 400%;
     animation: gradient 20s ease infinite;
 }
