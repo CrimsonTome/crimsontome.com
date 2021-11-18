@@ -7,7 +7,7 @@ tags:
 layout: layouts/post.njk
 
 ---
-![GitHub Logo](/img/GitHub_Logo_White.png "GitHubLogo")
+<img src="/img/GitHub_Logo_White.png" alt="GHLogo" width="200"/>
 
 ## A ramble about GitHub by someone fairly new to it
 ### (This may become a series of posts on GitHub)
