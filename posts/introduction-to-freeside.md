@@ -7,6 +7,8 @@ tags:
   - uni
 layout: layouts/post.njk
 ---
+
+<br>
 <img src="/img/freeside_square_path.svg" alt="FreesideLogo" width="200"/>
 
 This post will act as an informal introduction to Freeside
