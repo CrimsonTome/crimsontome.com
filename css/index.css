@@ -2,7 +2,7 @@
 :root {
   --header: #333;
   --border: #C0C0C0;
-  --text: #333;
+  --text: #ed3f3e;
   --visited: #660066;
   --link: ##0000FF;
   --bg: #fff;
@@ -287,9 +287,11 @@ html, body{
   padding: 0px;
 }
 body {                                  /*new crimson gradient*/
-    background: linear-gradient(-45deg, #da0f13, #e61f20, #ed3f3e);
-    background-size: 400% 400%;
-    animation: gradient 20s ease infinite;
+    /*#ed3f3e); */
+    background-color: #000000;
+    background-image: linear-gradient(-45deg, #000000 0%, #414141 74%);
+    background-size: 100% 100%;
+   /* animation: gradient 40s ease infinite;
 }
 
 
@@ -304,3 +306,4 @@ body {                                  /*new crimson gradient*/
         background-position: 0% 50%;
     }
 }
+*/
