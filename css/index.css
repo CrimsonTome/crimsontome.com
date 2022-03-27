@@ -14,12 +14,12 @@
     body{
       --bg: #333;
       --text: #fff
-         
+
     }
 
   }
   */
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
   :root {
     --header: #333;
     --border: #C0C0C0;
@@ -31,6 +31,7 @@
     --header-text: #666e5c;
   }
 }
+*/
 
 
 /* Global stylesheet */
@@ -91,7 +92,7 @@ pre,
 code {
   font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
   line-height: 1.5;
-  
+
 }
 pre {
   font-size: 14px;
@@ -262,7 +263,7 @@ a[href].post-tag:focus {
 
 /* Direct Links / Markdown Headers */
 .direct-link {
-  font-family: sans-serif;  
+  font-family: sans-serif;
   text-decoration: none;
   font-style: normal;
   margin-left: .1em;
