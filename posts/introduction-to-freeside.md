@@ -17,10 +17,10 @@ Freeside is the student run Linux user group at the University of Hull.
 ## How do I join?
 Unlike many groups at a university, there is **no** membership cost to become a member of Freeside. It is also irrelevant which course you are taking, everyone is welcome here - even if you don't attend the university! You can join the Freeside Discord server [here](https://discord.gg/jE5VGjCu).
 ## What do we do?
-Linux, seems a bit of a vague description doesn't it? How about I go into a little more detail.  
-Freeside provides an environment for everyone to learn more about Linux, open-source development, system administration, have experience with networking and career opportunities, social events / weekly virtual meet ups and access to the Freeside lab (Freeside Lab available to UoH students only).  
+Linux, seems a bit of a vague description doesn't it? How about I go into a little more detail.
+Freeside provides an environment for everyone to learn more about Linux, open-source development, system administration, have experience with networking and career opportunities, social events / weekly virtual meet ups and access to the Freeside lab (Freeside Lab available to UoH students only).
 ## Where to find us?
-- On-site : Robert Blackburn Building Room 300 
+- On-site : Robert Blackburn Building Room 300
 - [Discord](https://discord.gg/jE5VGjCu)
-- [GitHub](https://github.com/freesidehull)
-- [Freeside Website](https://freeside.co.uk/)  
+- [GitHub](https://github.com/freesidehulluni)
+- [Freeside Website](https://freeside.co.uk/)
