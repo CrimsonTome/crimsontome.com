@@ -22,5 +22,5 @@ Freeside provides an environment for everyone to learn more about Linux, open-so
 ## Where to find us?
 - On-site : Robert Blackburn Building Room 300
 - [Discord](https://discord.gg/jE5VGjCu)
-- [GitHub](https://github.com/freesidehulluni)
+- [GitHub](https://github.com/freesidehull)
 - [Freeside Website](https://freeside.co.uk/)
