@@ -1,6 +1,6 @@
 {
   "name": "crimsontome-blog",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "blog using eleventy and netlify",
   "scripts": {
     "build": "eleventy",
@@ -16,7 +16,7 @@
   "author": {
     "name": "Matt Clark",
     "email": "crimsontome427@protonmail.com",
-    "url": "https://crimsontome.com/"
+    "url": "https://blog.crimsontome.com/"
   },
   "license": "MIT",
   "bugs": {
