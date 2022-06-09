@@ -4,7 +4,7 @@ description: How to lock your sites that don't have built in authentication
 date: 2022-06-09
 tags:
   - Nginx
-  - self-hsting
+  - self-hosting
   - how-to
 layout: layouts/post.njk
 ---
