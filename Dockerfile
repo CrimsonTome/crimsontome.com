@@ -1,9 +1,9 @@
-FROM node:10-alpine3.9 as npmpackages
+FROM node:18-alpine3.15 as npmpackages
 WORKDIR /app
 COPY package.json .
 RUN npm install
 
-FROM node:10-alpine3.9 as builder
+FROM node:18-alpine3.15 as builder
 WORKDIR /app
 COPY --from=npmpackages /app /app
 COPY . .
