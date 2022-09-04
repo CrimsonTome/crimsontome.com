@@ -4,7 +4,7 @@
   --border: #C0C0C0;
   --text: #fff;
   --visited: #660066;
-  --link: #0000FF;
+  --link: #fff;
   --bg: #fff;
   --code-bg: #f6f6f6;
   --header-text: #333;
@@ -37,6 +37,8 @@
 /* Global stylesheet */
 * {
   box-sizing: border-box;
+  
+  /*border: 3px solid #73AD21; toggle to debug borders */
 }
 
 html,

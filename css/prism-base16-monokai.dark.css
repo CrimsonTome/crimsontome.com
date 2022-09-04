@@ -15,11 +15,12 @@ code[class*="language-"], pre[class*="language-"] {
 	hyphens: none;
 	background: #272822;
 	color: #f8f8f2;
+	max-width: 600px !important;
+	
 }
 pre[class*="language-"] {
 	padding: 1.5em 0;
 	margin: .5em 0;
-	overflow: auto;
 }
 :not(pre) > code[class*="language-"] {
 	padding: .1em;
