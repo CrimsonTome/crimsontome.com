@@ -41,7 +41,7 @@ COPY --from=builder /app/_site/ /usr/share/nginx/html/
 ```
 ### Ouroboros
 
-Using a tool like [Ouroboros](https://github.com/pyouroboros/ouroboros), you can automatically update containers without the need for restarts. This site is setup with that so you can (instead of building it yourself like above) with sudo docker run -d -p unused-port-number:80 crimsontome427:crimsontome-blog
+Using a tool like [Ouroboros](https://github.com/pyouroboros/ouroboros), you can automatically update containers without the need for restarts. This site is setup with that so you can (instead of building it yourself like above) with `sudo docker run -d -p unused-port-number:80 crimsontome427:crimsontome-blog`
 
 ## Contributing
 
