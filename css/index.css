@@ -14,29 +14,37 @@
 * {
 	box-sizing: border-box;
 	/*border: 3px solid #73AD21; toggle to debug borders */
+
 }
 
-html,
+
 body {
+  display: grid;
+  text-align: justify;
+  grid-template-rows: auto auto auto ;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-areas: 
+    "left-header header right-header"
+    "left-content content right-content"
+    "left-footer footer right-footer";
 	padding: 0;
 	margin: 0;
 	font-family: -apple-system, system-ui, sans-serif;
 	color: var(--text);
 	background-color: var(--bg);
 	min-height: 100vh;
-	width: 100%;
 	background-image: linear-gradient(116deg, rgba(232, 232, 232, 0.03) 0%, rgba(232, 232, 232, 0.03) 10%, rgba(14, 14, 14, 0.03) 10%, rgba(14, 14, 14, 0.03) 66%, rgba(232, 232, 232, 0.03) 66%, rgba(232, 232, 232, 0.03) 72%, rgba(44, 44, 44, 0.03) 72%, rgba(44, 44, 44, 0.03) 81%, rgba(51, 51, 51, 0.03) 81%, rgba(51, 51, 51, 0.03) 100%), linear-gradient(109deg, rgba(155, 155, 155, 0.03) 0%, rgba(155, 155, 155, 0.03) 23%, rgba(30, 30, 30, 0.03) 23%, rgba(30, 30, 30, 0.03) 63%, rgba(124, 124, 124, 0.03) 63%, rgba(124, 124, 124, 0.03) 73%, rgba(195, 195, 195, 0.03) 73%, rgba(195, 195, 195, 0.03) 84%, rgba(187, 187, 187, 0.03) 84%, rgba(187, 187, 187, 0.03) 100%), linear-gradient(79deg, rgba(254, 254, 254, 0.03) 0%, rgba(254, 254, 254, 0.03) 27%, rgba(180, 180, 180, 0.03) 27%, rgba(180, 180, 180, 0.03) 33%, rgba(167, 167, 167, 0.03) 33%, rgba(167, 167, 167, 0.03) 34%, rgba(68, 68, 68, 0.03) 34%, rgba(68, 68, 68, 0.03) 63%, rgba(171, 171, 171, 0.03) 63%, rgba(171, 171, 171, 0.03) 100%), linear-gradient(109deg, rgba(71, 71, 71, 0.03) 0%, rgba(71, 71, 71, 0.03) 3%, rgba(97, 97, 97, 0.03) 3%, rgba(97, 97, 97, 0.03) 40%, rgba(40, 40, 40, 0.03) 40%, rgba(40, 40, 40, 0.03) 55%, rgba(5, 5, 5, 0.03) 55%, rgba(5, 5, 5, 0.03) 73%, rgba(242, 242, 242, 0.03) 73%, rgba(242, 242, 242, 0.03) 100%), linear-gradient(271deg, rgba(70, 70, 70, 0.03) 0%, rgba(70, 70, 70, 0.03) 11%, rgba(178, 178, 178, 0.03) 11%, rgba(178, 178, 178, 0.03) 23%, rgba(28, 28, 28, 0.03) 23%, rgba(28, 28, 28, 0.03) 72%, rgba(152, 152, 152, 0.03) 72%, rgba(152, 152, 152, 0.03) 86%, rgba(43, 43, 43, 0.03) 86%, rgba(43, 43, 43, 0.03) 100%), linear-gradient(90deg, rgb(27, 27, 27), rgb(1, 1, 1));
 	background-size: 100% 100%;
 }
-
 p:last-child {
 	margin-bottom: 0;
 }
 
-p,
-.tmpl-post li,
+p, li,
 img {
-	max-width: 37.5em;
+
+  max-width: 100%;
+
 	/* 600px /16 */
 }
 
@@ -55,6 +63,7 @@ a[href]:visited {
 
 main {
 	padding: 1rem;
+  grid-area: content
 }
 
 main :first-child {
@@ -106,7 +115,7 @@ pre {
 	padding: 1em;
 	margin: .5em 0;
 	overflow-y: auto;
-	max-width: 90vw;
+	
 }
 
 /*background-color: var(--code-bg)*/
@@ -306,4 +315,8 @@ a[href].direct-link:focus:visited,
 :hover>a[href].direct-link,
 :hover>a[href].direct-link:visited {
 	color: #aaa;
+}
+
+h1 {
+  text-align: center;
 }

@@ -15,7 +15,8 @@ code[class*="language-"], pre[class*="language-"] {
 	hyphens: none;
 	background: #272822;
 	color: #f8f8f2;
-	max-width: 600px;
+
+	
 }
 pre[class*="language-"] {
 	padding: 1.5em 0;
@@ -24,6 +25,7 @@ pre[class*="language-"] {
 :not(pre) > code[class*="language-"] {
 	padding: .1em;
 	border-radius: .3em;
+	
 }
 .token.comment, .token.prolog, .token.doctype, .token.cdata {
 	color: #75715e;
