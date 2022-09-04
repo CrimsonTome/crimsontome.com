@@ -1,6 +1,13 @@
 # CrimsonTome's Blog
 > My personal blog documenting my journey into open-source development alongside other things.  
 > Created with 11ty, hosted in a docker container on my VPS
+
+[![CI](https://github.com/CrimsonTome/crimsontome-blog/actions/workflows/node%20CI.yml/badge.svg)](https://github.com/CrimsonTome/crimsontome-blog/actions/workflows/node%20CI.yml)
+[![Publish Docker image](https://github.com/CrimsonTome/crimsontome-blog/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/CrimsonTome/crimsontome-blog/actions/workflows/docker-publish.yml)
+![Repo Size](https://img.shields.io/github/repo-size/crimsontome/crimsontome-blog)
+![Commit Activity /month](https://img.shields.io/github/commit-activity/m/crimsontome/crimsontome-blog)
+![Last git commit](https://img.shields.io/github/last-commit/crimsontome/crimsontome-blog)
+
 ## Development
 
  - clone the repo
