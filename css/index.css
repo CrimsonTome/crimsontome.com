@@ -335,6 +335,7 @@ div.time-and-tags{
   height: fit-content;
 }
 img {
+  width: 100%;
   margin: auto;
   display: block;
 }
