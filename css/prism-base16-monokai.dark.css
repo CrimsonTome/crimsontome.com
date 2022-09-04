@@ -19,7 +19,7 @@ code[class*="language-"], pre[class*="language-"] {
 	
 }
 pre[class*="language-"] {
-	padding: 1.5em 0;
+	padding: 1.5em 1.5em;
 	margin: .5em 0;
 }
 :not(pre) > code[class*="language-"] {
