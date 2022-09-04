@@ -13,4 +13,3 @@ FROM nginx:1.17.10-alpine
 RUN rm -r /usr/share/nginx/html/
 COPY --from=builder /app/_site/ /usr/share/nginx/html/
 
-EXPOSE 5000
