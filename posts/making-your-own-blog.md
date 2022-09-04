@@ -47,7 +47,7 @@ GitHub will then generate your repo using the eleventy base blog template. There
 You can use your email or GitHub login (I'd recommend using GH as that is what I did). Once logged in go to <https://app.netlify.com/start>, choose `GitHub` as the option for Continuous Deployment then select your repo you have created with the elventy template. Then click `Deploy site`. Head to `https://app.netlify.com/sites/user-name/settings/general#site-details`. For now Netlify provides you with its own subdomain at `subdomain.netlify.app` but you can change it by presssing `Change site name`.  
 ### Back to GitHub
 Remember `metadata.json`? You'll need to fill that in now to customise the template to match you.
-```
+```json
 {
   "title": "Blog title",
   "url": "https://subdomain-you-chose.netlify.app/",

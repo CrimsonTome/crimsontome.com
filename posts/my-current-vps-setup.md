@@ -122,7 +122,7 @@ docker run -d --restart="always" --read-only -p 8080:8080 -v $PWD/privatebin-dat
 
 [Dashy](https://dashy.to/) can be ran in a docker container, but some plugins *do not* work whilst Dashy is in one, so I am using npm to build and serve it instead. Once you are done setting up dashy
 
-```
+```shell
 git clone https://github.com/Lissy93/dashy.git
 cd dashy
 # make your changes to public/conf
