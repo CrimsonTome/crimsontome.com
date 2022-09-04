@@ -5,6 +5,7 @@ date: 2022-06-09
 tags:
   - self-hosting
   - linux
+  - vps-series
 layout: layouts/post.njk
 ---
 
