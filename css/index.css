@@ -17,26 +17,51 @@
 }
 
 header {
-  height: fit-content;
+	height: fit-content;
 }
 
 body {
-  display: grid;
-  text-align: justify;
-  grid-template-rows: auto auto auto;
-  grid-template-columns: 25% 50% 25%;
-  grid-template-areas: 
-  "left content right";
+	display: grid;
+	text-align: justify;
+	grid-template-rows: auto;
+	grid-template-columns: 25% 1fr 25%;
+	grid-template-areas:
+		"left content right";
 	padding: 0;
 	margin: 0;
-  font-family: -apple-system, system-ui, sans-serif;
+	font-family: -apple-system, system-ui, sans-serif;
 	color: var(--text);
 	min-height: 100vh;
 	background-image: linear-gradient(116deg, rgba(232, 232, 232, 0.03) 0%, rgba(232, 232, 232, 0.03) 10%, rgba(14, 14, 14, 0.03) 10%, rgba(14, 14, 14, 0.03) 66%, rgba(232, 232, 232, 0.03) 66%, rgba(232, 232, 232, 0.03) 72%, rgba(44, 44, 44, 0.03) 72%, rgba(44, 44, 44, 0.03) 81%, rgba(51, 51, 51, 0.03) 81%, rgba(51, 51, 51, 0.03) 100%), linear-gradient(109deg, rgba(155, 155, 155, 0.03) 0%, rgba(155, 155, 155, 0.03) 23%, rgba(30, 30, 30, 0.03) 23%, rgba(30, 30, 30, 0.03) 63%, rgba(124, 124, 124, 0.03) 63%, rgba(124, 124, 124, 0.03) 73%, rgba(195, 195, 195, 0.03) 73%, rgba(195, 195, 195, 0.03) 84%, rgba(187, 187, 187, 0.03) 84%, rgba(187, 187, 187, 0.03) 100%), linear-gradient(79deg, rgba(254, 254, 254, 0.03) 0%, rgba(254, 254, 254, 0.03) 27%, rgba(180, 180, 180, 0.03) 27%, rgba(180, 180, 180, 0.03) 33%, rgba(167, 167, 167, 0.03) 33%, rgba(167, 167, 167, 0.03) 34%, rgba(68, 68, 68, 0.03) 34%, rgba(68, 68, 68, 0.03) 63%, rgba(171, 171, 171, 0.03) 63%, rgba(171, 171, 171, 0.03) 100%), linear-gradient(109deg, rgba(71, 71, 71, 0.03) 0%, rgba(71, 71, 71, 0.03) 3%, rgba(97, 97, 97, 0.03) 3%, rgba(97, 97, 97, 0.03) 40%, rgba(40, 40, 40, 0.03) 40%, rgba(40, 40, 40, 0.03) 55%, rgba(5, 5, 5, 0.03) 55%, rgba(5, 5, 5, 0.03) 73%, rgba(242, 242, 242, 0.03) 73%, rgba(242, 242, 242, 0.03) 100%), linear-gradient(271deg, rgba(70, 70, 70, 0.03) 0%, rgba(70, 70, 70, 0.03) 11%, rgba(178, 178, 178, 0.03) 11%, rgba(178, 178, 178, 0.03) 23%, rgba(28, 28, 28, 0.03) 23%, rgba(28, 28, 28, 0.03) 72%, rgba(152, 152, 152, 0.03) 72%, rgba(152, 152, 152, 0.03) 86%, rgba(43, 43, 43, 0.03) 86%, rgba(43, 43, 43, 0.03) 100%), linear-gradient(90deg, rgb(27, 27, 27), rgb(1, 1, 1));
-	background-size: 100% 100%; 
-  
+	background-size: 100% 100%;
+
 }
 
+@media (max-width: 1024px) {
+	body {
+		grid-template-rows: auto auto 1fr;
+		grid-template-columns: 1fr;
+		grid-template-areas: "left""right""content";
+	}
+	
+	.postlist .postlist-item {
+		display: grid;
+		grid-template-rows: auto 1fr;
+		grid-template-columns: auto auto 1fr;
+		grid-template-areas: "number title title" "time time tags";
+	}
+	
+	.postlist-item:before { grid-area: number; }
+	.postlist-link { grid-area: title; }
+	.postlist-date { grid-area: time; }
+	.post-tags { grid-area: tags; text-align: left; }
+	
+}
+
+nav {
+	grid-area: right;
+	justify-self: center;
+}
 
 p:last-child {
 	margin-bottom: 0;
@@ -57,7 +82,8 @@ a[href]:visited {
 
 main {
 	padding: 1rem;
-  grid-area: content
+	grid-area: content;
+	justify-self: center;
 }
 
 main :first-child {
@@ -65,13 +91,9 @@ main :first-child {
 }
 
 header {
-	color: var(--text)
-}
-
-header:after {
-	content: "";
-	display: table;
-	clear: both;
+	grid-area: left;
+	color: var(--text);
+	justify-self: center;
 }
 
 table {
@@ -108,7 +130,7 @@ pre {
 	padding: 1em;
 	margin: .5em 0;
 	overflow-y: auto;
-	
+
 }
 
 /*background-color: var(--code-bg)*/
@@ -310,30 +332,37 @@ a[href].direct-link:focus:visited,
 	color: #aaa;
 }
 
-h1,h2,h3,h4,h5,h6 {
-  text-align: center;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-align: center;
 }
-div.time-and-tags{
-  align-content: center;
-  grid-template-rows: auto ;
-  grid-template-columns: auto;
-  grid-template-areas: 
-  "content";
+
+div.time-and-tags {
+	align-content: center;
+	grid-template-rows: auto;
+	grid-template-columns: auto;
+	grid-template-areas:
+		"content";
 }
 
 .container {
-  width: 100%;
-  height: fit-content;
-  display: flex;
-  justify-content: center;
+	width: 100%;
+	height: fit-content;
+	display: flex;
+	justify-content: center;
 }
 
 .tandt {
-  width: fit-content;
-  height: fit-content;
+	width: fit-content;
+	height: fit-content;
 }
+
 img {
-  width: 100%;
-  margin: auto;
-  display: block;
+	width: 100%;
+	margin: auto;
+	display: block;
 }
