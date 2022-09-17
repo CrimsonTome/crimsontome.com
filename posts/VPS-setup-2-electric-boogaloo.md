@@ -1,5 +1,5 @@
 ---
-title: VPS setup 2, electric boogaloo 
+title: VPS setup 2, electric boogaloo
 description: An update on services I'm running on my VPS
 date: 2022-09-04
 tags:
@@ -14,7 +14,6 @@ layout: layouts/post.njk
 ## Preface
 
 Back in July, I wrote a post detailing [what I run on my VPS](https://blog.crimsontome.com/posts/my-current-vps-setup), some things have changed since then so I thought I'd come back with an update. If you haven't read the previous post I suggest you do. p.s. Sorry in advance for any awful puns.
-
 
 ## A change to be made
 
@@ -40,12 +39,13 @@ To clone all the repos I needed to get back up and running, I uploaded an SSH ke
 
 ```
 
-There is however perhaps a more efficient way of doing this, instead of manually cloning all of your repos one by one, using the [GitHub CLI](https://cli.github.com/) and a small shell script. Once `gh` is linked to your GitHub account you can run the following script to clone every repo you own. 
+There is however perhaps a more efficient way of doing this, instead of manually cloning all of your repos one by one, using the [GitHub CLI](https://cli.github.com/) and a small shell script. Once `gh` is linked to your GitHub account you can run the following script to clone every repo you own.
+
 ```shell
 gh repo list --limit num-of-repos |awk '{print $1}' | xargs -L1 gh repo clone
 ```
 
-Once all my repos had been cloned, I moved them to their appropriate directories and could more or less just run them as I would normally with minimal tweaking. The main things that needed work was Cloudflare DNS and Nginx Proxy Manager but that was just updating the IP address to the new server. 
+Once all my repos had been cloned, I moved them to their appropriate directories and could more or less just run them as I would normally with minimal tweaking. The main things that needed work was Cloudflare DNS and Nginx Proxy Manager but that was just updating the IP address to the new server.
 
 ## What has stayed the same
 
@@ -61,7 +61,7 @@ My [git server](https://git.crimsontome.com) is still alive but doesn't see much
 
 ### Saying goodbye
 
-I no longer run a [PrivateBin](https://privatebin.info/) server as I could never get it to function properly, but am still looking for other similar variations. I'll get one to work eventually. 
+I no longer run a [PrivateBin](https://privatebin.info/) server as I could never get it to function properly, but am still looking for other similar variations. I'll get one to work eventually.
 
 I have also stopped using [Dashy](https://dashy.to/) and [Netdata](https://github.com/netdata/netdata) for my server dashboard and metrics respectively. I found I didn't have much of a use for the dashboard and NetData was too memory intensive on the old server so I never bothered setting it up on this server, though it would probably work just fine.
 
@@ -69,15 +69,15 @@ I have also stopped using [Dashy](https://dashy.to/) and [Netdata](https://githu
 
 Perhaps the most helpful addition to my server is [Ouroboros](https://github.com/pyouroboros/ouroboros), it is used to automate the updating of containers. I wrote a [blog post](https://blog.crimsontome.com/posts/automating-container-updates-with-ouroboros/) about it if you are interested.
 
-Instead of NetData's advanced metrics, I decided to go with something much more lightweight called [Glances](https://github.com/nicolargo/glances), it functions quite like `top` but has some more details and can be viewed in a browser too. 
+Instead of NetData's advanced metrics, I decided to go with something much more lightweight called [Glances](https://github.com/nicolargo/glances), it functions quite like `top` but has some more details and can be viewed in a browser too.
 
-As a form of secret manageent, I use [vaultwarden](https://github.com/dani-garcia/vaultwarden/), though this has not seen a lot of use recently, so I may scrap this. 
+As a form of secret manageent, I use [vaultwarden](https://github.com/dani-garcia/vaultwarden/), though this has not seen a lot of use recently, so I may scrap this.
 
 [Uptime Kuma](https://github.com/louislam/uptime-kuma) is used to monitor some sites hosted by friends and Freeside and can be seen [here](https://uptime.crimsontome.com/status/uptime)
 
 ### Things I may come back to
 
- - Honeypots including [Honeyport](https://github.com/securitygeneration/Honeyport)
- - A [factorio map site](https://github.com/ProkopRandacek/FactorioFotograf) inspired by [sbrl's world](https://public.mooncarrot.space/Mazeworld64/)
- - A [Spotify profile dashboard](https://github.com/Yooooomi/your_spotify)
- - A Discord bot for fetching information about Magic The Gathering cards
+- Honeypots including [Honeyport](https://github.com/securitygeneration/Honeyport)
+- A [factorio map site](https://github.com/ProkopRandacek/FactorioFotograf) inspired by [sbrl's world](https://public.mooncarrot.space/Mazeworld64/)
+- A [Spotify profile dashboard](https://github.com/Yooooomi/your_spotify)
+- A Discord bot for fetching information about Magic The Gathering cards

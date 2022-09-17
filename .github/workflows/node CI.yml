@@ -29,7 +29,5 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '18.x'
-      - name: run Prettier
-        run: npx prettier --check .
       - name: Run npm
         run: npm install && npm run build

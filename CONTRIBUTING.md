@@ -6,7 +6,7 @@ If for whatever reason you wish to make a pull request for this repository, whet
 
 ![image](https://user-images.githubusercontent.com/64846840/138212343-542914ab-e807-43d9-88a8-4ada91eee67a.png)
 
-- Clone the repo to your device: `git clone https://github.com/your-github-username/crimsontome-blog.git` 
+- Clone the repo to your device: `git clone https://github.com/your-github-username/crimsontome-blog.git`
 
 - navigate to the repo on your device with `cd crimsontome-blog`
 - make your changes to files you want to with your preferred editor

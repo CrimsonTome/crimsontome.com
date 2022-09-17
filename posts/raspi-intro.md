@@ -1,5 +1,5 @@
 ---
-title:  Introduction to Raspberry Pi
+title: Introduction to Raspberry Pi
 description: This is my first post, it is an introduction to Raspberry Pi.
 date: 2021-10-15
 tags:
@@ -11,7 +11,7 @@ layout: layouts/post.njk
 
 I would be surprised if you've never heard of them, since they seem to have exploded in popularity in recent years. They are very popular with those who want to get into programming and electronics, or Linux in general.
 
-*Just a quick disclaimer, though I have been using Pis in some form for over 5 years now I can only really say I  have casual experience with Pis and as such what is written here may be subjective or incorrect in some ways. I suggest you do your own research if you want to get into them, or if you're someone with knowledge of them and want to correct me feel free to contact me.*
+_Just a quick disclaimer, though I have been using Pis in some form for over 5 years now I can only really say I have casual experience with Pis and as such what is written here may be subjective or incorrect in some ways. I suggest you do your own research if you want to get into them, or if you're someone with knowledge of them and want to correct me feel free to contact me._
 
 ## But first, just a little bit of history
 
@@ -19,13 +19,15 @@ The Raspberry Pi Foundation (RPF), based in the UK launched their first model of
 
 ## So, why should you get a Pi?
 
-It may seem like these single board computers are a bit underwhelming. What, the best model only has 8GB of RAM?! Well you see not everyone has the money to spend hundreds or even thousands of pounds on a computer. This leads me to what I think is the best thing about these: they're cheap. For example the Raspberry Pi Zero costs ~£5 and can do plenty of things that it's successors can. Sure it does it to a lesser extent but to me at least that is part of the fun, given what you've got how can I make *x* work?
+It may seem like these single board computers are a bit underwhelming. What, the best model only has 8GB of RAM?! Well you see not everyone has the money to spend hundreds or even thousands of pounds on a computer. This leads me to what I think is the best thing about these: they're cheap. For example the Raspberry Pi Zero costs ~£5 and can do plenty of things that it's successors can. Sure it does it to a lesser extent but to me at least that is part of the fun, given what you've got how can I make _x_ work?
 Another reason is that if you have an idea, you can probably make it with a Raspberry Pi. As you'll see in the resources section, there are so many different things you can do, and for a lot of them you don't really need to know that much beforehand, just get stuck in. Want to make a NAS, retro games player, host your own website, play around with some electronics? The Pi has you covered.
 
 ## Series
+
 ### Zero
 
 The Raspberry Pi Zero (released in 2015) is a much smaller device - around half the size of the Raspberry Pi model A+. The original Zero had these specifications:
+
 - 1GHz single-core CPU
 - 512MB RAM
 - Mini HDMI port
@@ -40,6 +42,7 @@ Given its size and low specifications, it is highly portable and has very low po
 ### Pico
 
 The Raspberry Pi Pico was released in 2021 with a price of ~£3 with these features:
+
 - RP2040 microcontroller chip designed by Raspberry Pi in the United Kingdom
 - Dual-core Arm Cortex M0+ processor, flexible clock running up to 133 MHz
 - 264KB of SRAM, and 2MB of on-board Flash memory
@@ -54,10 +57,12 @@ The Raspberry Pi Pico was released in 2021 with a price of ~£3 with these featu
 - Accelerated floating-point libraries on-chip
 - 8 × Programmable I/O (PIO) state machines for custom peripheral support
 
- Like the Zero, the Pico can also be used as part of an embedded system such as acting as a temperature sensor for someewhere like a greenhouse
+Like the Zero, the Pico can also be used as part of an embedded system such as acting as a temperature sensor for someewhere like a greenhouse
 
 ### Other
+
 A popular model of the Raspberry Pi is the Model 4B:
+
 - Broadcom BCM2711, Quad core Cortex-A72 (ARM v8) 64-bit SoC @ 1.5GHz
 - 2GB, 4GB or 8GB LPDDR4-3200 SDRAM (depending on model)
 - 2.4 GHz and 5.0 GHz IEEE 802.11ac wireless, Bluetooth 5.0, BLE
@@ -71,8 +76,8 @@ A popular model of the Raspberry Pi is the Model 4B:
 - H.265 (4kp60 decode), H264 (1080p60 decode, 1080p30 encode)
 - OpenGL ES 3.1, Vulkan 1.0
 - Micro-SD card slot for loading operating system and data storage
--5V DC via USB-C connector (minimum 3A)
-- 5V DC via GPIO header (minimum 3A*)
+  -5V DC via USB-C connector (minimum 3A)
+- 5V DC via GPIO header (minimum 3A\*)
 - Power over Ethernet (PoE) enabled (requires separate PoE HAT)
 
 The Pi Model 4B can be powerful enough to run some quite intensive things, given the right environment. For example (though not with a 4B) I used to run Retropie for running some retro games with decent performance.
@@ -108,4 +113,4 @@ The Pi Model 4B can be powerful enough to run some quite intensive things, given
 6. [Git server](https://pimylifeup.com/raspberry-pi-git-server/)
 7. [Projects from Raspberry Pi](https://projects.raspberrypi.org/en)
 
-*Resources compiled by various Freeside members, a huge thanks to everyone who helped!*
+_Resources compiled by various Freeside members, a huge thanks to everyone who helped!_
