@@ -19,6 +19,7 @@
 <body>
 	<header>
 		<h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
+
 		{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
 	</header>
 
@@ -35,4 +36,10 @@
 		</ul>
 	</nav>
 </body>
+
+<footer>
+	<div class="footer">
+	<a href="{{ '/' | url }}">{{ metadata.title }}</a> built with <i class="fa-solid fa-heart"></i> by <a href="https://github.com/crimsontome">CrimsonTome</a> | <a href="https://github.com/crimsontome/crimsontome-blog"><i class="fa-brands fa-github"></i>Source code</a>
+	</div>
+</footer>
 </html>
