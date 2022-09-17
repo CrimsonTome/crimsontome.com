@@ -28,12 +28,8 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v1
         with:
-<<<<<<< HEAD
           node-version: '18.x'
       - name: run Prettier
         run: npx prettier --check .
-=======
-          node-version: "18.x"
->>>>>>> 229a8cf (format all with prettier)
       - name: Run npm
         run: npm install && npm run build
