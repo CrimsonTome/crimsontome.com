@@ -1,4 +1,6 @@
 _site/
+.git/
+.github/
 node_modules/
 package-lock.json
 debug.log
