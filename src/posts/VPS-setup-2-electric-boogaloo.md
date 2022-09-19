@@ -6,7 +6,7 @@ tags:
   - self-hosting
   - linux
   - vps-series
-layout: src/layouts/post.njk
+layout: layouts/post.njk
 ---
 
 ![](/img/cloud.png)
