@@ -6,7 +6,7 @@ tags:
   - Nginx
   - self-hosting
   - how-to
-layout: layouts/post.njk
+layout: src/layouts/post.njk
 ---
 
 I was looking for a way to lock my sites that need some sort of authentication that does not come built in. I had tried [Autheila](https://github.com/authelia/authelia) but I could never get it working. So here is a quick tutorial on locking sites with [Nginx Proxy Manager](https://nginxproxymanager.com/) (NPM)

@@ -6,7 +6,7 @@ tags:
   - PVE
   - VMs
   - linux
-layout: layouts/post.njk
+layout: src/layouts/post.njk
 ---
 
 This post has been in the works since November 2021, or rather I thought of around then, it hasn't been until February 2022 that I have started drafting anything, as such early details about setting this up may require reading the PVE Documentation more than if I could explain it all. This series is less of a tutorial and more so a collection of my experiences working with the projects. With that in mind let's begin.

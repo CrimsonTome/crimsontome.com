@@ -4,7 +4,7 @@ description: An introduction to GitHub from someone fairly new to it
 date: 2021-11-17
 tags:
   - github
-layout: layouts/post.njk
+layout: src/layouts/post.njk
 ---
 
 <br>

@@ -4,7 +4,7 @@ description: This is my first post, it is an introduction to Raspberry Pi.
 date: 2021-10-15
 tags:
   - raspberry pi
-layout: layouts/post.njk
+layout: src/layouts/post.njk
 ---
 
 # So you want to find out about the Raspberry Pi?

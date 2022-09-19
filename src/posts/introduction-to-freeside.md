@@ -5,7 +5,7 @@ date: 2021-10-16
 tags:
   - freeside
   - uni
-layout: layouts/post.njk
+layout: src/layouts/post.njk
 ---
 
 <br>
