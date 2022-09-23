@@ -14,7 +14,7 @@
 
 - clone the repo
 - run `npm i` to install dependencies
-- `npm run serve`
+- npm `run serve`
 - make some changes and watch them update in the browser
 
 ## Building
