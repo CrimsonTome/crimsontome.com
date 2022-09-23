@@ -393,8 +393,6 @@ img {
   display: block;
 }
 footer {
-  position: sticky;
-  bottom: 0;
   text-align: center;
   padding: 2em;
 }
