@@ -403,7 +403,7 @@ a {
 }
 
 a {
-  background: linear-gradient(to right, #64c8c800, rgba(100, 200, 200, 0)),
+  background: linear-gradient(to right, white, white),
     linear-gradient(
       to right,
       rgba(255, 0, 0, 1),
