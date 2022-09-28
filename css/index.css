@@ -416,6 +416,9 @@ a {
   transition: background-size 400ms;
 }
 
+a:focus {
+  background-size: 0 3px, 100% 3px;
+}
 a:hover {
   background-size: 0 3px, 100% 3px;
 }
