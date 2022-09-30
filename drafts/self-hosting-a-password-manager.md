@@ -8,4 +8,4 @@ tags:
 layout: layouts/post.njk
 ---
 
-It's 2022, if you are not using a password manager, I don't know what to do apart from *sigh* and tell you to use one, like now - right now in fact 😛.
+It's 2022, if you are not using a password manager, I don't know what to do apart from _sigh_ and tell you to use one, like now - right now in fact 😛.
