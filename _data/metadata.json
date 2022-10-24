@@ -1,21 +1,21 @@
 {
   "title": "CrimsonTome's blog",
-  "url": "https://blog.crimsontome.com/",
+  "url": "https://.crimsontome.com/",
   "language": "en",
   "description": "Documenting my journey into open-source development alongside other things.",
   "feed": {
     "subtitle": "Documenting my journey into open-source development alongside other things.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://blog.crimsontome.com/"
+    "id": "https://crimsontome.com/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://blog.crimsontome.com/feed/feed.json"
+    "url": "https://crimsontome.com/feed/feed.json"
   },
   "author": {
-    "name": "Matt Clark",
+    "name": "Rowan Clark",
     "email": "crimsontome427@protonmail.com",
-    "url": "hhtps://blog.crimsontome.com/about/"
+    "url": "hhtps://crimsontome.com/about/"
   }
 }
