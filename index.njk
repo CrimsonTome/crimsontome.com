@@ -1,14 +1,16 @@
 ---
 layout: layouts/home.njk
+Title: Welcome!
 eleventyNavigation:
   key: Home
   order: 1
 ---
+<h1> Welcome!</h1>
 
 This is the home of CrimsonTome's blog. Here you can find posts about things I'm interested in, projects I'm doing and the odd tutorial every now and then. I hope you enjoy your stay here and find something here useful 👋
 
 {% set maxPosts = collections.posts.length | min(5) %}
-<h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
+<h2>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h2>
 
 {% set postslist = collections.posts | head(-5) %}
 {% set postslistCounter = collections.posts | length %}
