@@ -104,8 +104,8 @@ jobs:
 
 ```docker
 docker run -d --name ouroboros \
--v /var/run/docker.sock:/var/run/docker.sock \
-pyouroboros/ouroboros
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  ghcr.io/gmt2001/ouroboros
 ```
 
 - Then with the containers involved:
