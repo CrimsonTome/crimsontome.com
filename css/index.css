@@ -139,6 +139,7 @@ code {
     "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L",
     "Courier New", Courier, monospace;
   line-height: 1.5;
+  white-space: pre-wrap !important;
 }
 
 pre {
