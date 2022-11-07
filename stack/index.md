@@ -19,6 +19,19 @@ A list of hardware and software I use
 - 1366 x 768 15 inch display
 - TOSHIBA 1TB HDD
 - Crucial 1TB NVMe SSD
+  
+### Desktop - Custom build in progress
+
+- AMD Ryzen 7 5800X
+- Cooler Master Hyper H412R
+- Asus Prime B550-Plus ATX AM4 Motherboard
+- x2 Corsair Vengeance LPX 8GB DDR4 3200 MHz
+- WD Black SN770 2TB M.2-2280 PCIe 4.0
+- Radeon RX 6600 8GB
+- Fractal Design Meshify C ATX Mid Tower case
+- SeaSonic PRIME Ultra Titanium 650 W 80+ PSU
+- AX200 WiFi Card
+- Gigabit Ethernet
 
 ### Phone - Huawei P smart 2019
 
