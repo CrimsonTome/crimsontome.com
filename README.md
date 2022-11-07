@@ -9,6 +9,7 @@
 ![Commit Activity /month](https://img.shields.io/github/commit-activity/m/crimsontome/crimsontome-blog)
 ![Last git commit](https://img.shields.io/github/last-commit/crimsontome/crimsontome-blog)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
 - [CrimsonTome's Blog](#crimsontomes-blog)
   - [Development](#development)
   - [Building](#building)
@@ -19,6 +20,7 @@
   - [Contributing](#contributing)
   - [Changelog](#changelog)
   - [License](#license)
+
 ## Development
 
 - clone the repo
@@ -70,8 +72,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for information on adding to this reposit
 
 ## Changelog
 
-Run `./changelog` to generate the changelog after your commit, then `git add . && git commit --amend --no-edit
-` to generate the changelog  
+Run `./changelog` to generate the changelog after your commit, then `git add . && git commit --amend --no-edit ` to generate the changelog  
 The changelog is available [here](CHANGELOG.md)
 
 ## License

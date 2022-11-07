@@ -19,7 +19,7 @@ A list of hardware and software I use
 - 1366 x 768 15 inch display
 - TOSHIBA 1TB HDD
 - Crucial 1TB NVMe SSD
-  
+
 ### Desktop - Custom build in progress
 
 - AMD Ryzen 7 5800X

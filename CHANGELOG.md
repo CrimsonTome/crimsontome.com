@@ -1,3 +1,21 @@
+Commit: 2d8cd50
+Author: Rowan Clark
+Mon Nov 7 00:23:49 2022
+Commit subject: 
+style: prettier formatting
+
+Commit: 7c716c1
+Author: Rowan Clark
+Mon Nov 7 00:08:41 2022
+Commit subject: 
+chore: add Cl and ToC to readme
+
+Commit: a74e53f
+Author: Rowan Clark
+Mon Nov 7 00:04:48 2022
+Commit subject: 
+chore: add changelog
+
 Commit: 31c5023
 Author: Rowan Clark
 Mon Nov 7 00:02:51 2022
