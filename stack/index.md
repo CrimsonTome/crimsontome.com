@@ -29,7 +29,7 @@ A list of hardware and software I use
 - WD Black SN770 2TB M.2-2280 PCIe 4.0
 - Radeon RX 6600 8GB
 - Fractal Design Meshify C ATX Mid Tower case
-- SeaSonic PRIME Ultra Titanium 650 W 80+ PSU
+- SeaSonic focus gx 650 W 80+ Gold
 - AX200 WiFi Card
 - Gigabit Ethernet
 
@@ -94,5 +94,7 @@ Most of the software I use can be found in my GitHub Stars [here](https://github
   - SponsorBlock
   - Dark Reader
   - Stylus
+  - Tab suspender
+  - Refined GitHub
 - Theme
   - Catppuccin Mocha
