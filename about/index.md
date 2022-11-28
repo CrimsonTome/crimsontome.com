@@ -14,6 +14,7 @@ I have some experience with Linux, which started with tinkering with a Raspberry
 Like many others, I enjoy playing video games in my spare time. My favourite franchises would have to be Fire Emblem and Borderlands. As a CS student I also enjoy coding primarily in Bash/Shell and C# as these are what I am the most familiar with. I know a bit of Python As part of working on this site I am learning some CSS and JS. I've always wanted to learn C/C++ but never really had the time for it. I love working on Linux sysadmin and spend a lot of time working on my VPS and tinkering with Docker.  
 If for some reason you need to contact me then my Discord is: CrimsonTome427#7459
 Or send me an email at <crimsontome427@protonmail.com>
+<a rel="me" href="https://noc.social/@crimsontome427">Mastodon</a>
 
 Source code for this site can be found here <https://github.com/crimsontome/crimsontome-blog>
 
