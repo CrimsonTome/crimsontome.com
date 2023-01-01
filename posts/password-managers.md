@@ -1,7 +1,7 @@
 ---
 title: Self host your password manager!
 description: How and why you should self host your own password manager
-date: 2022-12-26
+date: 2023-01-01
 tags:
   - self-hosting
   - security
