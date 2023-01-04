@@ -58,16 +58,14 @@ Most of the software I use can be found in my GitHub Stars [here](https://github
 ### IDE
 
 - VSCode
-- JetBrains Fleet
 
 ### Basic text editing
 
 - Vim
-- Kate
 
 ### Report writing
 
-- Kile
+- VSCode with LaTeX Extensions
 
 ### Terminal
 
@@ -96,5 +94,6 @@ Most of the software I use can be found in my GitHub Stars [here](https://github
   - Stylus
   - Tab suspender
   - Refined GitHub
+  - Bitwarden 
 - Theme
   - Catppuccin Mocha
