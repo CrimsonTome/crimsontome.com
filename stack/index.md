@@ -94,6 +94,6 @@ Most of the software I use can be found in my GitHub Stars [here](https://github
   - Stylus
   - Tab suspender
   - Refined GitHub
-  - Bitwarden 
+  - Bitwarden
 - Theme
   - Catppuccin Mocha
