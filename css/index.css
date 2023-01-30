@@ -32,21 +32,21 @@ body {
   color: var(--text);
   min-height: 100vh;
   background-image: repeating-linear-gradient(
-      35deg,
+      135deg,
       rgb(0, 0, 0) 0px,
-      rgb(0, 0, 0) 9px,
+      rgb(0, 0, 0) 10px,
       transparent 10px,
       transparent 11px
     ),
     repeating-linear-gradient(
-      155deg,
+      22.5deg,
       rgb(0, 0, 0) 0px,
-      rgb(0, 0, 0) 9px,
+      rgb(0, 0, 0) 10px,
       transparent 10px,
       transparent 11px
     ),
     linear-gradient(
-      22.5deg,
+      90deg,
       hsl(194, 74%, 56%),
       hsl(266, 74%, 56%),
       hsl(338, 74%, 56%),
