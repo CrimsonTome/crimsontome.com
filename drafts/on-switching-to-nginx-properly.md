@@ -7,27 +7,32 @@ tags:
   - self-hosting
 layout: layouts/post.njk
 ---
+
 ![](https://upload.wikimedia.org/wikipedia/commons/c/c5/Nginx_logo.svg)
 
 <br>
 
-Recently, I switched from [Nginx Proxy Manager](https://github.com/NginxProxyManager/nginx-proxy-manager) - the Docker container - to bare [Nginx](https://www.nginx.com/). Or more specifically the open source webserver and reverse proxy - there are many other [products](https://www.nginx.com/products/) available. There were a few reasons for this: 
- - Nginx Proxy Manager could be quite memory heavy, causing my VPS to slow down at times
- - Some weird certificate errors I had no idea how to solve caused Nginx Proxy Manager to break a few times
- - I wanted to learn how to configure Nginx from the ground up - rather than playing with predefined blocks that could be overwrote if I didn't do it right - and I would have to learn it anyway for where I hope to do my year in industry so why not get started early
- - I had friends recommend it to me that have knowledge of Nginx and certificate management so I knew I would have people to go to should I need help
+Recently, I switched from [Nginx Proxy Manager](https://github.com/NginxProxyManager/nginx-proxy-manager) - the Docker container - to bare [Nginx](https://www.nginx.com/). Or more specifically the open source webserver and reverse proxy - there are many other [products](https://www.nginx.com/products/) available. There were a few reasons for this:
 
-Getting started, I shut down my Nginx Proxy Manager container and was ready for a little downtime but this would not have been too much of an issue as I don't run any *critical* services, all I was really worried about was my password manager and  GitHub --> [Gitea](https://github.com/go-gitea/gitea/) backups managed by [this](https://github.com/jaedle/mirror-to-gitea), which mirrors public repos to my [Gitea instance](https://git.crimsontome.com). Sadly this tool does not yet have the ability to mirror private repositories - see [this pull request](https://github.com/jaedle/mirror-to-gitea/pull/4), but with risk of going too off topic, I'll leave anymore talk of this for a future post.
+- Nginx Proxy Manager could be quite memory heavy, causing my VPS to slow down at times
+- Some weird certificate errors I had no idea how to solve caused Nginx Proxy Manager to break a few times
+- I wanted to learn how to configure Nginx from the ground up - rather than playing with predefined blocks that could be overwrote if I didn't do it right - and I would have to learn it anyway for where I hope to do my year in industry so why not get started early
+- I had friends recommend it to me that have knowledge of Nginx and certificate management so I knew I would have people to go to should I need help
 
-With the container teared down, I installed Nginx with 
+Getting started, I shut down my Nginx Proxy Manager container and was ready for a little downtime but this would not have been too much of an issue as I don't run any _critical_ services, all I was really worried about was my password manager and GitHub --> [Gitea](https://github.com/go-gitea/gitea/) backups managed by [this](https://github.com/jaedle/mirror-to-gitea), which mirrors public repos to my [Gitea instance](https://git.crimsontome.com). Sadly this tool does not yet have the ability to mirror private repositories - see [this pull request](https://github.com/jaedle/mirror-to-gitea/pull/4), but with risk of going too off topic, I'll leave anymore talk of this for a future post.
+
+With the container teared down, I installed Nginx with
+
 ```sh
 sudo nala install nginx
-``` 
-([nala](https://github.com/volitank/nala) is a wrapper around apt) and made sure it was enabled and running with 
+```
+
+([nala](https://github.com/volitank/nala) is a wrapper around apt) and made sure it was enabled and running with
+
 ```txt
-ctome in 🌐 crimsontome in ~ 
+ctome in 🌐 crimsontome in ~
 > sudo systemctl status nginx
-[sudo] password for ctome: 
+[sudo] password for ctome:
 ● nginx.service - A high performance web server and a reverse proxy server
      Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)
      Active: active (running) since Sat 2023-01-28 09:42:22 UTC; 1 day 17h ago
@@ -52,7 +57,8 @@ Jan 28 10:37:19 crimsontome.com systemd[1]: Reloading A high performance web ser
 Jan 28 10:37:19 crimsontome.com systemd[1]: Reloaded A high performance web server and a reverse proxy server.
 
 ```
-Once I knew the service was running correctly, I had to verify that the default page was working by going to the root of my domain (http://crimsontome.com) and as expected the page was waiting for me, telling me Nginx was working. Next was to move it from `/etc/nginx/sites-enabed/default` to `/etc/nginx/sites-available/default` 
+
+Once I knew the service was running correctly, I had to verify that the default page was working by going to the root of my domain (http://crimsontome.com) and as expected the page was waiting for me, telling me Nginx was working. Next was to move it from `/etc/nginx/sites-enabed/default` to `/etc/nginx/sites-available/default`
 
 Next was adding the following to my config at `/etc/nginx/nginx.conf` within the `http` block and replacing 'port-number' with the corresponding port for that service
 
@@ -67,10 +73,10 @@ http {
 
 # ... more config ...
 ```
+
 Upstream is nice for handling services that don't have a defined source like `/var/www/site`. Since I run most of my sites inside Docker containers and expose the ports this is quite handy.
 
 Next was adding individual site configuration, for example my main page at `/etc/nginx/sites-enabled/crimsontome.com.conf`:
-
 
 ```nginx
 server {
@@ -81,13 +87,17 @@ server {
     }
 }
 ```
+
 This all seemed pretty simple and after restarting Nginx with
+
 ```sh
 sudo nginx -s reload
 ```
-all seemed to work when visiting http://service.crimsonmtome.com (don't try the link it's not a real one, at least I hope it doesn't exist 😛). This wasn't as hard as I originally thought this would be, until I encountered certificates for managing HTTPS connections. .  .
+
+all seemed to work when visiting http://service.crimsonmtome.com (don't try the link it's not a real one, at least I hope it doesn't exist 😛). This wasn't as hard as I originally thought this would be, until I encountered certificates for managing HTTPS connections. . .
 
 It started off with Certbot and its Nginx plugin, allowing HTTPS with Nginx and disabling HTTP. All HTTP traffic is redirected to HTTPS anyway
+
 ```sh
 sudo nala install certbot python3-certbot-nginx
 sudo ufw allow 'Nginx Full'
@@ -96,20 +106,25 @@ sudo ufw status
 ```
 
 then to give each site it's certificate
+
 ```txt
 xargs -L1 sudo certbot --nginx --expand  -d < ~/domains
 ```
+
 where domains is a newline separated list of domains
 
 Later I was told to use `certonly` with the `certbot` command, at which point I tried that but was met with being rate limited by Let's Encrypt. Fun.
 
-After waiting a while longer I tried again but encountered errors again, certificates already existing etc, more rate limiting. It was pointed out to me later on thatI should have used the staging server to test all of this before I was sure. 
+After waiting a while longer I tried again but encountered errors again, certificates already existing etc, more rate limiting. It was pointed out to me later on thatI should have used the staging server to test all of this before I was sure.
 
-I purged Certbot and removed mentions of it in my Nginx configs then re installed and tried re creating the certificates, but then Nginx complained because Certbot didn't put the certificate fields back. At this point I was about to give up until a [friend](https://github.com/lgibson02) - the follwing snippets are from him -  suggested [acme-tiny](https://github.com/diafygi/acme-tiny) - installed with 
+I purged Certbot and removed mentions of it in my Nginx configs then re installed and tried re creating the certificates, but then Nginx complained because Certbot didn't put the certificate fields back. At this point I was about to give up until a [friend](https://github.com/lgibson02) - the follwing snippets are from him - suggested [acme-tiny](https://github.com/diafygi/acme-tiny) - installed with
+
 ```sh
 sudo apt-get install acme-tiny
 ```
-and creating a new script at `usr/local/bin/update-cert` 
+
+and creating a new script at `usr/local/bin/update-cert`
+
 ```sh
 #!/bin/sh
 set -e
@@ -172,7 +187,9 @@ if [ ! -d /etc/cert ]; then
 fi
 install_letsencrypt_signed
 ```
+
 Adding this to `/etc/nginx/snippets/listen-https.conf`
+
 ```nginx
 listen 443 http2 ssl;
 listen [::]:443 http2 ssl;
@@ -180,6 +197,7 @@ add_header Strict-Transport-Security "max-age=31536000" always;
 ssl_certificate /etc/cert/certificate.crt;
 ssl_certificate_key /etc/cert/private.key;
 ```
+
 and this to the default Nginx http block
 
 ```nginx
@@ -202,22 +220,30 @@ server {
 ```
 
 Creating a directory owned by `www-data` at `/vaw/www/acme-challenge`
+
 ```sh
 sudo mkdir /var/www/acme-challenge
 sudo chown -R www-data:www-data /var/www/acme-challenge
-```	
+```
+
 After testing with the staging server I thought that the following would work with `update-cert`
+
 ```sh
 sudo xargs -L1 update-cert < ~/domains
 ```
+
 However this would make all my certificates be the last one in the list. Removing `-L1` fixed the problem once I was - one more time - no longer rate limited.
 
 Finally, setting up the cron job to auto renew certs with:
+
 ```sh
 sudo crontab -e
 ```
+
 adding the following
+
 ```txt
 42 7 1 * * xargs update-cert < /home/ctome/domains 2>&1 > /var/log/cert.log
 ```
+
 From then on, all my sites had working TLS.
