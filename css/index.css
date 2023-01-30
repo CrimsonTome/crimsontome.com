@@ -32,21 +32,21 @@ body {
   color: var(--text);
   min-height: 100vh;
   background-image: repeating-linear-gradient(
-      135deg,
+      35deg,
       rgb(0, 0, 0) 0px,
-      rgb(0, 0, 0) 10px,
+      rgb(0, 0, 0) 9px,
       transparent 10px,
       transparent 11px
     ),
     repeating-linear-gradient(
-      22.5deg,
+      155deg,
       rgb(0, 0, 0) 0px,
-      rgb(0, 0, 0) 10px,
+      rgb(0, 0, 0) 9px,
       transparent 10px,
       transparent 11px
     ),
     linear-gradient(
-      90deg,
+      22.5deg,
       hsl(194, 74%, 56%),
       hsl(266, 74%, 56%),
       hsl(338, 74%, 56%),
@@ -111,7 +111,7 @@ main {
   padding: 1rem;
   grid-area: content;
   justify-self: center;
-  background: hsla(0, 0%, 10%, 0.6);
+  background: hsla(0, 0%, 7.5%, 0.6);
 }
 
 main :first-child {
