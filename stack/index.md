@@ -62,6 +62,7 @@ Most of the software I use can be found in my GitHub Stars [here](https://github
 ### Basic text editing
 
 - Vim
+- Helix
 
 ### Report writing
 
