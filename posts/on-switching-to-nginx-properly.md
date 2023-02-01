@@ -1,7 +1,7 @@
 ---
 title: On switching to nginx properly
 description: Switching from Nginx Proxy Manager to Nginx
-date: 2023-01-30
+date: 2023-02-01
 tags:
   - Nginx
   - self-hosting
