@@ -18,4 +18,4 @@ Or send me an email at <crimsontome427@protonmail.com>
 
 Source code for this site can be found here <https://github.com/crimsontome/crimsontome-blog>
 
-Looking to hire me? My CV is available [here](/img/cv-10-22.pdf)
+Looking to hire me? My CV is available [here](/img/cv-02-23.pdf)
