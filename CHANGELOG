@@ -1,4 +1,82 @@
-Commit: 7010904
+Commit: f6c6c7f
+Author: Rowan Clark
+Mon Feb 13 19:29:12 2023
+Commit subject: 
+build: update nodejs ver and use nginx-stable
+
+Commit: 1148206
+Author: Rowan Clark
+Mon Feb 6 23:30:23 2023
+Commit subject: 
+chore: update cv
+
+Commit: 9983d9d
+Author: Rowan Clark
+Wed Feb 1 11:02:02 2023
+Commit subject: 
+chore: add helix to text editors
+
+Commit: 62030e0
+Author: Rowan Clark
+Wed Feb 1 11:00:45 2023
+Commit subject: 
+chore: mv new post out of drafts
+
+Commit: c1eabf5
+Author: Rowan Clark
+Mon Jan 30 09:25:54 2023
+Commit subject: 
+chore: prettier-formatting
+
+Commit: 91dd99b
+Author: Rowan Clark
+Mon Jan 30 09:23:59 2023
+Commit subject: 
+chore: revert css changes
+
+Commit: 310a59e
+Author: Rowan Clark
+Mon Jan 30 05:39:00 2023
+Commit subject: 
+chore: add nginx post to drafts - release in Feb
+
+Commit: 3c9fa7f
+Author: Rowan Clark
+Mon Jan 30 01:48:20 2023
+Commit subject: 
+chore: add test script for new post scaffolding
+
+Commit: 8b8fbfe
+Author: Rowan Clark
+Thu Jan 5 11:12:52 2023
+Commit subject: 
+chore: prettier formatting
+
+Commit: 633dbcd
+Author: Rowan Clark
+Wed Jan 4 19:41:38 2023
+Commit subject: 
+chore: update stack
+
+Commit: 3c8b34f
+Author: Rowan Clark
+Sun Jan 1 17:13:16 2023
+Commit subject: 
+chore: update date on pwm post
+
+Commit: bac16f5
+Author: Rowan Clark
+Sun Jan 1 16:14:48 2023
+Commit subject: 
+chore: mv pwm draft to posts
+
+Commit: 1291b00
+Author: Rowan Clark
+Mon Dec 26 13:38:41 2022
+Commit subject: 
+chore: make text more visible by dimming bg
+
+Commit: 58e46af
 Author: Rowan Clark
 Mon Dec 26 11:03:16 2022
 Commit subject: 
