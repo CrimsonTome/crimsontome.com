@@ -40,7 +40,7 @@ menu_items = [
     
     # tags should only be enabled if you have "tags" taxonomy
     # see documentation below for more details
-    {name = "tags", url = "$BASE_URL/tags"},
+#    {name = "tags", url = "$BASE_URL/tags"},
     {name = "archive", url = "$BASE_URL/archive"},
     {name = "about me", url = "$BASE_URL/about"},
     
@@ -49,9 +49,9 @@ menu_items = [
 ]
 
 #enable tags 
-taxonomies = [
-    {name = "tags"},
-]
+#taxonomies = [
+#    {name = "tags"},
+#]
 
 
 #enable full unicode support
