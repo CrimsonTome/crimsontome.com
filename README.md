@@ -1,7 +1,7 @@
 # CrimsonTome's Blog
 
 > My personal blog documenting my journey into open-source development alongside other things.  
-> Created with Zola, hosted on my VPS
+> Created with Zola using the [terminimal theme](https://github.com/pawroman/zola-theme-terminimal), hosted on my VPS
 
 ![Repo Size](https://img.shields.io/github/repo-size/crimsontome/crimsontome-blog)
 ![Commit Activity /month](https://img.shields.io/github/commit-activity/m/crimsontome/crimsontome-blog)
