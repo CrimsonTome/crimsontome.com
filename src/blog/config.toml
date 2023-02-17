@@ -43,7 +43,7 @@ menu_items = [
 #    {name = "tags", url = "$BASE_URL/tags"},
     {name = "archive", url = "$BASE_URL/archive"},
     {name = "about me", url = "$BASE_URL/about"},
-    
+    {name = "My stack", url= "$BASE_URL/stack"},    
     # set newtab to true to make the link open in new tab
     {name = "github", url = "https://github.com/crimsontome", newtab = true},
 ]
