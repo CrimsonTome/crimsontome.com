@@ -8,7 +8,6 @@ tags:
   - self-hosting
   - github
   - how-to
-layout: layouts/post.njk
 ---
 
 ![image](https://user-images.githubusercontent.com/64846840/188291755-3b17cbfb-667b-43cd-97c4-748a1d9f769a.png)
