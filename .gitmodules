@@ -1,3 +1,0 @@
-[submodule "src/blog/themes/terminimal"]
-	path = src/blog/themes/terminimal
-	url = https://github.com/pawroman/zola-theme-terminimal.git
