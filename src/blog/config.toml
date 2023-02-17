@@ -4,6 +4,12 @@ base_url = "https://crimsontome.com"
 # Use terminal theme
 theme = "terminimal"
 
+# change output dir to _site
+output_dir = "_site"
+
+# autogen feed
+generate_feed = true
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
@@ -57,3 +63,4 @@ use_full_hack_font = true
 #           in your site's "static" directory.
 # favicon = "static/favicon.jpg"
 # favicon_mimetype = "image/png"
+page_titles = "combined"
