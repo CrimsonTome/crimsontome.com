@@ -1,3 +1,117 @@
+Commit: 246450e
+Author: Rowan Clark
+Fri Feb 17 03:53:23 2023
+Commit subject: 
+docs: update readme with zola info
+
+Commit: 698d5be
+Author: Rowan Clark
+Fri Feb 17 03:47:37 2023
+Commit subject: 
+remove workflows and add stack to main page
+
+Commit: f00406a
+Author: Rowan Clark
+Fri Feb 17 03:39:27 2023
+Commit subject: 
+chore: re add theme
+
+Commit: 307c3f6
+Author: Rowan Clark
+Fri Feb 17 03:25:54 2023
+Commit subject: 
+chore: can build on server now, but no docker
+
+Commit: 775675c
+Author: Rowan Clark
+Fri Feb 17 03:09:40 2023
+Commit subject: 
+chore: moveover so i can deploy maybe
+
+Commit: a5f4062
+Author: Rowan Clark
+Fri Feb 17 02:13:35 2023
+Commit subject: 
+fix: potential fix for zola theme not pushing
+
+Commit: 3787d8b
+Author: Rowan Clark
+Fri Feb 17 01:08:20 2023
+Commit subject: 
+feat: add zola dockerfile
+
+Commit: 36dfd92
+Author: Rowan Clark
+Fri Feb 17 00:44:51 2023
+Commit subject: 
+remove: rm 11ty files
+
+Commit: 9d9cf6e
+Author: Rowan Clark
+Fri Feb 17 00:36:12 2023
+Commit subject: 
+feat: transfer imgs
+
+Commit: 37c9e42
+Author: Rowan Clark
+Fri Feb 17 00:29:15 2023
+Commit subject: 
+feat: add stack
+
+Commit: 6e7f632
+Author: Rowan Clark
+Fri Feb 17 00:22:12 2023
+Commit subject: 
+chore: remove tag support for now
+
+Commit: 952391a
+Author: Rowan Clark
+Fri Feb 17 00:18:22 2023
+Commit subject: 
+fix: fix zola, start adding blog archive
+
+Commit: a910301
+Author: Rowan Clark
+Thu Feb 16 23:00:04 2023
+Commit subject: 
+feat: enable full unicode support
+
+Commit: 1025744
+Author: Rowan Clark
+Thu Feb 16 22:55:14 2023
+Commit subject: 
+feat: add home menu and enable tags
+
+Commit: cd8ab71
+Author: Rowan Clark
+Thu Feb 16 22:53:07 2023
+Commit subject: 
+feat: add terminal theme and begin config
+
+Commit: 2212d49
+Author: Rowan Clark
+Thu Feb 16 22:42:32 2023
+Commit subject: 
+chore: init zola
+
+Commit: 8208d94
+Author: Rowan Clark
+Tue Feb 14 02:25:14 2023
+Commit subject: 
+chore: switch non-template files from njk to html
+
+Commit: 4d94b0f
+Author: Rowan Clark
+Tue Feb 14 01:12:55 2023
+Commit subject: 
+feat: fix link colour, begin draft of march's post
+
+Commit: 83c100f
+Author: Rowan Clark
+Mon Feb 13 23:24:37 2023
+Commit subject: 
+chore: update changelog
+
 Commit: f6c6c7f
 Author: Rowan Clark
 Mon Feb 13 19:29:12 2023
