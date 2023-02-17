@@ -62,5 +62,5 @@ use_full_hack_font = true
 #           The URL should point at a file located
 #           in your site's "static" directory.
 # favicon = "static/favicon.jpg"
-# favicon_mimetype = "image/png"
+# favicon_mimetype = "image/jpg"
 page_titles = "combined"
