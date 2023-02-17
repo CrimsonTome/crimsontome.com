@@ -3,6 +3,3 @@ WORKDIR /site
 COPY src/blog/ /site
 CMD ["build"]
 
-FROM nginx:stable-alpine
-RUN rm -r /usr/share/nginx/html/
-COPY --from=zola /site/_site/ /usr/share/nginx/html/
