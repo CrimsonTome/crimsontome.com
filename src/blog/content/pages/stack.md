@@ -56,18 +56,12 @@ Most of the software I use can be found in my GitHub Stars [here](https://github
 
 ### Basic text editing
 
-- Vim
 - Helix
 
-### Report writing
-
-- VSCode with LaTeX Extensions
-
-### Terminal
+### Terminal emulator and Shell
 
 - Konsole
 - Bash shell
-- Nu shell
 
 ### Languages/Tools
 
@@ -91,5 +85,6 @@ Most of the software I use can be found in my GitHub Stars [here](https://github
   - Tab suspender
   - Refined GitHub
   - Bitwarden
+  - Tree-style tabs
 - Theme
   - Catppuccin Mocha
