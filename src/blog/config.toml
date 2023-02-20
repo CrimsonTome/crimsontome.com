@@ -36,16 +36,16 @@ author = "CrimsonTome"
 menu_items = [
     # each of these is optional, name and url are required
     # $BASE_URL is going to be substituted by base_url from configuration
-    {name = "blog", url = "$BASE_URL"},
+    {name = "Blog", url = "$BASE_URL"},
     
     # tags should only be enabled if you have "tags" taxonomy
     # see documentation below for more details
 #    {name = "tags", url = "$BASE_URL/tags"},
-    {name = "archive", url = "$BASE_URL/archive"},
-    {name = "about me", url = "$BASE_URL/about"},
+    {name = "Archive", url = "$BASE_URL/archive"},
+    {name = "About me", url = "$BASE_URL/about"},
     {name = "My stack", url= "$BASE_URL/stack"},    
     # set newtab to true to make the link open in new tab
-    {name = "github", url = "https://github.com/crimsontome", newtab = true},
+    {name = "GitHub", url = "https://github.com/crimsontome", newtab = true},
 ]
 
 #enable tags 
