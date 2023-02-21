@@ -5,7 +5,7 @@ base_url = "https://crimsontome.com"
 theme = "terminimal"
 
 # change output dir to _site
-output_dir = "_site"
+output_dir = "../../_site"
 
 # autogen feed
 generate_feed = true
