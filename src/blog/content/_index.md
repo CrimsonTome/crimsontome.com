@@ -1,5 +1,5 @@
 +++
-paginate_by = 2
+paginate_by = 1
 sort_by = "date"
 title = "Blog"
 +++
