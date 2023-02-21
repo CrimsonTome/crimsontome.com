@@ -42,4 +42,4 @@ The changelog is available [here](CHANGELOG)
 
 ## License
 
-crimsontome-blog is released under the MIT License. The full license text is included in the [LICENSE](LICENSE.md) file in this repository. Tldr legal have a [great summary](https://tldrlegal.com/license/mit-license) of the license if you're interested.
+crimsontome.com is released under the MIT License. The full license text is included in the [LICENSE](LICENSE.md) file in this repository. Tldr legal have a [great summary](https://tldrlegal.com/license/mit-license) of the license if you're interested.
