@@ -44,7 +44,7 @@ My Git server at https://git.crimsontome.com (as reccomended by a good friend [S
 
 https://links.crimsontome.com is created from a [littlelink](https://github.com/techno-tim/littlelink-server) container. It is an open-source self-hosted alternative to services like LinkTree. It contains links to most of my public services and is ran through this docker-compose file
 
-```dockerfile
+```yml
 version: "3.0"
 services:
   littlelink-server:
@@ -96,7 +96,7 @@ services:
 
 [Nginx Proxy Manager](https://nginxproxymanager.com/) is a project that 'comes as a pre-built docker image that enables you to easily forward to your websites running at home or otherwise, including free SSL, without having to know too much about Nginx or Letsencrypt'
 
-```dockerfile
+```yml
 version: '3'
 services:
   app:
@@ -117,7 +117,7 @@ You can also use it to lock sites that don't come with their own authenticattion
 
 Whilst currently not fully functional, https://paste.crimsontome.com hosts my [PrivateBin](https://privatebin.info/) instance. Like most of my services it runs inside a docker container
 
-```dockerfile
+```sh
 docker run -d --restart="always" --read-only -p 8080:8080 -v $PWD/privatebin-data:/srv/data privatebin/nginx-fpm-alpine
 ```
 
@@ -125,7 +125,7 @@ docker run -d --restart="always" --read-only -p 8080:8080 -v $PWD/privatebin-dat
 
 [Dashy](https://dashy.to/) can be ran in a docker container, but some plugins _do not_ work whilst Dashy is in one, so I am using npm to build and serve it instead. Once you are done setting up dashy
 
-```shell
+```sh
 git clone https://github.com/Lissy93/dashy.git
 cd dashy
 # make your changes to public/conf

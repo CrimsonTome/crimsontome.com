@@ -101,7 +101,7 @@ jobs:
 
 - To run Ouroboros:
 
-```docker
+```sh
 docker run -d --name ouroboros \
   -v /var/run/docker.sock:/var/run/docker.sock \
   ghcr.io/gmt2001/ouroboros
@@ -112,7 +112,7 @@ docker run -d --name ouroboros \
   - stop the containers
   - run the snippet below, filling in the details you need to
 
-```docker
+```sh
 docker run -d \
 --name=INSERT NAME \
 -p AN-UNUSED-PORT:THE-PORT-THE-SERVICE-RUNS-ON \

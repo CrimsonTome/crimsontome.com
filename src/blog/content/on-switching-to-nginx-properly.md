@@ -62,7 +62,7 @@ Once I knew the service was running correctly, I had to verify that the default 
 
 Next was adding the following to my config at `/etc/nginx/nginx.conf` within the `http` block and replacing 'port-number' with the corresponding port for that service
 
-```nginx
+```
 http {
 	# ... default config...
 	upstream service {
@@ -78,7 +78,7 @@ Upstream is nice for handling services that don't have a defined source like `/v
 
 Next was adding individual site configuration, for example my main page at `/etc/nginx/sites-enabled/crimsontome.com.conf`:
 
-```nginx
+```
 server {
     listen 80
     server_name crimsontome.com;
@@ -107,7 +107,7 @@ sudo ufw status
 
 then to give each site it's certificate
 
-```txt
+```sh
 xargs -L1 sudo certbot --nginx --expand  -d < ~/domains
 ```
 
@@ -190,7 +190,7 @@ install_letsencrypt_signed
 
 Adding this to `/etc/nginx/snippets/listen-https.conf`
 
-```nginx
+```
 listen 443 http2 ssl;
 listen [::]:443 http2 ssl;
 add_header Strict-Transport-Security "max-age=31536000" always;
@@ -200,7 +200,7 @@ ssl_certificate_key /etc/cert/private.key;
 
 and this to the default Nginx http block
 
-```nginx
+```
 # plaintext HTTP server:
 #   1) sends redirect to HTTPS servers
 #   2) serves ACME challenge for renewing SSL certificate
@@ -242,7 +242,7 @@ sudo crontab -e
 
 adding the following
 
-```txt
+```sh
 42 7 1 * * xargs update-cert < /home/ctome/domains 2>&1 > /var/log/cert.log
 ```
 

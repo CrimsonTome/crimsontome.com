@@ -61,6 +61,6 @@ use_full_hack_font = true
 #           Mimetype defaults to "image/x-icon".
 #           The URL should point at a file located
 #           in your site's "static" directory.
-# favicon = "static/favicon.jpg"
-# favicon_mimetype = "image/jpg"
+# favicon = "static/favicon.ico"
+# favicon_mimetype = "image/vnd.microsoft.icon"
 page_titles = "combined"

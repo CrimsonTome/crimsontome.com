@@ -31,7 +31,7 @@ I decided to choose [Ubuntu Server 22.04](https://ubuntu.com/download/server) fo
 
 To clone all the repos I needed to get back up and running, I uploaded an SSH key to github to authenticate the cloning of my private repositories. There is a guide to adding SSH keys to GitHub [here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account). You can then append the following to your `.gitconfig` file to prioritise using SSH for git actions.
 
-```shell
+```sh
 [url "git@github.com:"]
         insteadOf = https://github.com/
 [url "ssh://git@github.com:"]
@@ -41,7 +41,7 @@ To clone all the repos I needed to get back up and running, I uploaded an SSH ke
 
 There is however perhaps a more efficient way of doing this, instead of manually cloning all of your repos one by one, using the [GitHub CLI](https://cli.github.com/) and a small shell script. Once `gh` is linked to your GitHub account you can run the following script to clone every repo you own.
 
-```shell
+```sh
 gh repo list --limit num-of-repos |awk '{print $1}' | xargs -L1 gh repo clone
 ```
 
