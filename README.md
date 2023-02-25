@@ -3,9 +3,9 @@
 > My personal blog documenting my journey into open-source development alongside other things.  
 > Created with Zola using the [terminimal theme](https://github.com/pawroman/zola-theme-terminimal), hosted on my VPS
 
-![Repo Size](https://img.shields.io/github/repo-size/crimsontome/crimsontome-blog)
-![Commit Activity /month](https://img.shields.io/github/commit-activity/m/crimsontome/crimsontome-blog)
-![Last git commit](https://img.shields.io/github/last-commit/crimsontome/crimsontome-blog)
+![Repo Size](https://img.shields.io/github/repo-size/crimsontome/crimsontome.com)
+![Commit Activity /month](https://img.shields.io/github/commit-activity/m/crimsontome/crimsontome.com)
+![Last git commit](https://img.shields.io/github/last-commit/crimsontome/crimsontome.com)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 - [CrimsonTome's Blog](#crimsontomes-blog)
