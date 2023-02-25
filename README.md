@@ -6,7 +6,6 @@
 ![Repo Size](https://img.shields.io/github/repo-size/crimsontome/crimsontome.com)
 ![Commit Activity /month](https://img.shields.io/github/commit-activity/m/crimsontome/crimsontome.com)
 ![Last git commit](https://img.shields.io/github/last-commit/crimsontome/crimsontome.com)
-[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 - [CrimsonTome's Blog](#crimsontomes-blog)
   - [Development](#development)
