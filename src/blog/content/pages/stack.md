@@ -21,12 +21,14 @@ A list of hardware and software I use
 - AMD Ryzen 7 5800X
 - Cooler Master Hyper H412R
 - Gigabyte B550 AORUS ELITE AX V2 ATX AM4 Motherboard
-- Corsair Vengeance RGB Pro 16GB DDR4 3600 MHz
+- 2x Corsair Vengeance RGB Pro 16GB DDR4 3600 MHz
 - WD Black SN770 2TB M.2-2280 PCIe 4.0
 - Gigabyte WINDFORCE OC GeForce GTX 1080 8 GB Video Card
 - Fractal Design Meshify C ATX Mid Tower case
-- SeaSonic focus gx 650 W 80+ Gold
+- Corsair TX 650M PSU
 - 2.5 gig Ethernet
+- Logitech M330 Silent Plus Mouse
+- Keychron K2 Keyboard with gateron brown switches
 
 ### Phone - Huawei P smart 2019
 
