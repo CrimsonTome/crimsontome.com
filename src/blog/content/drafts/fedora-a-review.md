@@ -1,7 +1,7 @@
 ---
-title: Fedora -  a review
+title: Fedora -  a review after a year of use
 description: My take on Fedora
-date: 2023-02-13
+date: 2023-03-04
 tags:
   - linux
   - review
@@ -24,5 +24,9 @@ Shipping with a newer kernel was at first the main reason why I switched to Fedo
 
 ## What I don't like
 
-I have found DNF (the package manager) to be rather slow, even a basic search or updating mirrors can take what feels like an age - even on a fast machine with a good internet connection.  Local package searching with rpm is fine, just searching global packages is awfully slow. Yes there are workarounds but by default it feels sluggish.  
+I have found DNF (the package manager) to be rather slow, even a basic search or updating mirrors can take what feels like an age - even on a fast machine with a good internet connection.  Local package searching with rpm is fine, just searching global packages is awfully slow. Yes there are workarounds but by default it feels sluggish. DNF5 written in C++ offers some good improvements but is unlikely to speed up package queries. 
 While having up to date versions of software is nice sometimes and I think i've only had one issue with things being too new and breaking. During the Fedora 37 beta, I tried upgrading and found my install of [Pyinfra](https://pyinfra.com/) had broken due to Python being upgraded from 3.10 to 3.11. Reinstalling didn't help but these issues cover the problem [1](https://github.com/pypa/pipx/issues/791)/[2](https://github.com/pypa/pipx/issues/886).
+
+Overall, a lot of the issues I've had have been minor, my own fault or unavoidable. I would still recommend Fedora to anyone!
+
+p.s. by the time you're reading this my blog will have moved to using Zola over 11ty, the new github url is <https://github.com/crimsontome/crimsontome.com>. Might be a post on Zola coming eventually.
