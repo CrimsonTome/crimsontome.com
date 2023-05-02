@@ -2,7 +2,7 @@
 title = "About me"
 path = "about"
 +++
-So I guess I should introduce myself. I'm known as CrimsonTome online (not that I'm well known at all), but if you do speak to me then feel free to call me Matt.
+So I guess I should introduce myself. I'm known as CrimsonTome online (not that I'm well known at all), but if you do speak to me then feel free to call me Robyn.
 I am second year Computer Science student at the University of Hull, at which I am the Webmaster for [HullCSS](https://hullcss.org) and a member of the sysadmin team at [Freeside](https://freeside.co.uk)
 I studied Computer Science, Psychology and Sociology at York College and achieved grades C, C and A respectively.
 I have some experience with Linux, which started with tinkering with a Raspberry Pi which i have been doing for 5 years now. In August 2021 I switched from Windows 10 to Ubuntu --> Kubuntu --> Arch --> MX --> Fedora KDE (current) on my laptop and am now familiar with Linux.
