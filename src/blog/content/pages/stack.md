@@ -16,7 +16,7 @@ A list of hardware and software I use
 - TOSHIBA 1TB HDD
 - Crucial 1TB NVMe SSD
 
-### Desktop - Custom build in progress
+### Desktop
 
 - AMD Ryzen 7 5800X
 - Cooler Master Hyper H412R
@@ -50,20 +50,17 @@ Most of the software I use can be found in my GitHub Stars [here](https://github
 
 ### Current OS
 
-- Fedora 37
+- Fedora 38
 
-### IDE
+### IDEs and text editors
 
 - VSCode
-
-### Basic text editing
-
 - Helix
 
 ### Terminal emulator and Shell
 
 - Konsole
-- Bash shell
+- Bash/Fish shell
 
 ### Languages/Tools
 
@@ -73,7 +70,6 @@ Most of the software I use can be found in my GitHub Stars [here](https://github
 - Git
 - GitHub
 - Bash
-- LaTeX
 
 ### Browser
 
@@ -83,10 +79,7 @@ Most of the software I use can be found in my GitHub Stars [here](https://github
   - uBlock Origin
   - SponsorBlock
   - Dark Reader
-  - Stylus
-  - Tab suspender
   - Refined GitHub
   - Bitwarden
-  - Tree-style tabs
 - Theme
   - Catppuccin Mocha
