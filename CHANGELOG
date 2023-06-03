@@ -1,4 +1,112 @@
-Commit: 731f597
+Commit: 55a1b6c
+Author: GitHub
+Sat Jun 3 16:57:10 2023
+Commit subject: 
+Delete new-post.sh
+
+Commit: e4004a6
+Author: GitHub
+Sat Jun 3 16:56:06 2023
+Commit subject: 
+Delete .idea/.idea.crimsontome-blog.dir/.idea directory
+
+Commit: f0572d2
+Author: Rowan Clark
+Thu Jun 1 20:12:52 2023
+Commit subject: 
+chore: update stack
+
+Commit: 0ddee8c
+Author: Rowan Clark
+Thu Jun 1 20:10:51 2023
+Commit subject: 
+chore: bump cv
+
+Commit: b726482
+Author: Rowan Clark
+Tue May 2 11:31:18 2023
+Commit subject: 
+chore: name
+
+Commit: e9df7d4
+Author: Rowan Clark
+Sat Apr 8 18:23:14 2023
+Commit subject: 
+chore: fix error in cv
+
+Commit: 4fd0f7c
+Author: Rowan Clark
+Sat Apr 8 17:50:44 2023
+Commit subject: 
+chore: update path for cv in about
+
+Commit: 11489f9
+Author: Rowan Clark
+Sat Apr 8 17:48:22 2023
+Commit subject: 
+chore: update cv
+
+Commit: 7b2c851
+Author: Rowan Clark
+Sun Mar 5 22:21:35 2023
+Commit subject: 
+mv fedora post out of drafts
+
+Commit: 43327db
+Author: Rowan Clark
+Fri Mar 3 15:50:57 2023
+Commit subject: 
+chore: update fedora post
+
+Commit: df4504e
+Author: Rowan Clark
+Fri Mar 3 15:48:45 2023
+Commit subject: 
+chore: update script
+
+Commit: a458d40
+Author: Rowan Clark
+Fri Mar 3 15:31:59 2023
+Commit subject: 
+add update script
+
+Commit: 78716bb
+Author: Rowan Clark
+Fri Mar 3 15:29:06 2023
+Commit subject: 
+chore: update stack page
+
+Commit: bda1438
+Author: GitHub
+Thu Mar 2 16:27:17 2023
+Commit subject: 
+Delete FUNDING.yml
+
+Commit: 801383b
+Author: Rowan Clark
+Wed Mar 1 16:33:57 2023
+Commit subject: 
+chore: complete fedora post
+
+Commit: 30844bc
+Author: Rowan Clark
+Sat Feb 25 02:29:20 2023
+Commit subject: 
+remove: prettier style
+
+Commit: 31ff358
+Author: Rowan Clark
+Sat Feb 25 02:18:19 2023
+Commit subject: 
+chore: update badge urls
+
+Commit: 540da28
+Author: Rowan Clark
+Tue Feb 21 02:50:08 2023
+Commit subject: 
+chore: move out dir to /_site
+
+Commit: 5364581
 Author: Rowan Clark
 Tue Feb 21 02:18:24 2023
 Commit subject: 
