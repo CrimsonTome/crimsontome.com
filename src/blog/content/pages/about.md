@@ -11,7 +11,9 @@ If for some reason you need to contact me then my Discord is: `c.tome`
 Or send me an email at <crimsontome427@protonmail.com>
 <br>
 <a rel="me" href="https://noc.social/@crimsontome427">Mastodon</a>
-
+<br>
+[Lemmy](lemmy.blahaj.zone/u/crimson_kitsune)
+<br>
 Source code for this site can be found here <https://github.com/crimsontome/crimsontome.com>
 
 Looking to hire me? My CV is available [here](/img/rccv-01-06-23.pdf)
