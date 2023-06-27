@@ -12,7 +12,7 @@ Or send me an email at <crimsontome427@protonmail.com>
 <br>
 <a rel="me" href="https://noc.social/@crimsontome427">Mastodon</a>
 <br>
-[Lemmy]("lemmy.blahaj.zone/u/crimson_kitsune")
+[Lemmy](https://lemmy.blahaj.zone/u/crimson_kitsune)
 <br>
 Source code for this site can be found here <https://github.com/crimsontome/crimsontome.com>
 
