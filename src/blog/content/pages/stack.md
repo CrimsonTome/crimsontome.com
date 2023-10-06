@@ -50,7 +50,7 @@ Most of the software I use can be found in my GitHub Stars [here](https://github
 
 ### Current OS
 
-- Fedora 38
+- Debian 12 / Windows 10
 
 ### IDEs and text editors
 
@@ -60,7 +60,9 @@ Most of the software I use can be found in my GitHub Stars [here](https://github
 ### Terminal emulator and Shell
 
 - Konsole
-- Bash/Fish shell
+- Windows Terminal
+- Bash
+- WSL
 
 ### Languages/Tools
 
@@ -69,7 +71,7 @@ Most of the software I use can be found in my GitHub Stars [here](https://github
 - Docker
 - Git
 - GitHub
-- Bash
+- Bash/Shell
 
 ### Browser
 
@@ -82,4 +84,4 @@ Most of the software I use can be found in my GitHub Stars [here](https://github
   - Refined GitHub
   - Bitwarden
 - Theme
-  - Catppuccin Mocha
+  - Catppuccin Macchiato
