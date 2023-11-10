@@ -30,13 +30,12 @@ A list of hardware and software I use
 - Logitech M330 Silent Plus Mouse
 - Keychron K2 Keyboard with gateron brown switches
 
-### Phone - Huawei P smart 2019
+### Phone - Google Pixel 7a
 
-- 1080 x 2340 6.2 inch display
-- Octa-core (4x2.2 GHz Cortex-A73 & 4x1.7 GHz Cortex-A53)
-- 64GB storage
-- SanDisk 128GB SD
-- 3GB RAM
+- 1080 x 2400 6.1 inch display
+- Octa-core (2x2.85 GHz Cortex-X1 & 2x2.35 GHz Cortex-A78 & 4x1.80 GHz Cortex-A55)
+- 128GB storage
+- 8GB RAM
 
 ### Audio
 
@@ -62,7 +61,7 @@ Most of the software I use can be found in my GitHub Stars [here](https://github
 - Konsole
 - Windows Terminal
 - Bash
-- WSL
+- WSL2
 
 ### Languages/Tools
 
