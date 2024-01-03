@@ -9,4 +9,4 @@ I have been working with Linux in at least some capacity for the last 6 years, a
 
 Source code for this site can be found here <https://github.com/crimsontome/crimsontome.com>
 
-Looking to hire me? My CV is available [here](/img/rccv-291123.pdf)
+Looking to hire me? My CV is available [here](/img/rccv03012024.pdf)
