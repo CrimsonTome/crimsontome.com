@@ -30,6 +30,12 @@ A list of hardware and software I use
 - Logitech M330 Silent Plus Mouse
 - Keychron K2 Keyboard with gateron brown switches
 
+### Laptop - Dell Latitude 5330
+
+- I7-12650U
+- 16GB 3200MHz RAM
+- WD SN740
+
 ### Phone - Google Pixel 7a
 
 - 1080 x 2400 6.1 inch display
@@ -41,7 +47,7 @@ A list of hardware and software I use
 
 - Headphones
   - Razer Kraken headset
-  - The cheapest earphones I can buy that I don't have to worry about breaking
+  - Soundcore Q30 Headphones
 
 ## Software
 
@@ -49,7 +55,7 @@ Most of the software I use can be found in my GitHub Stars [here](https://github
 
 ### Current OS
 
-- Debian 12 / Windows 10
+- Ubuntu 23.10 / Windows 10
 
 ### IDEs and text editors
 
@@ -61,6 +67,7 @@ Most of the software I use can be found in my GitHub Stars [here](https://github
 - Konsole
 - Windows Terminal
 - Bash
+- Fish
 - WSL2
 
 ### Languages/Tools
@@ -70,7 +77,7 @@ Most of the software I use can be found in my GitHub Stars [here](https://github
 - Docker
 - Git
 - GitHub
-- Bash/Shell
+- Bash/Fish/Shell
 
 ### Browser
 
@@ -80,7 +87,6 @@ Most of the software I use can be found in my GitHub Stars [here](https://github
   - uBlock Origin
   - SponsorBlock
   - Dark Reader
-  - Refined GitHub
   - Bitwarden
 - Theme
   - Catppuccin Macchiato
