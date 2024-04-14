@@ -7,15 +7,6 @@ A list of hardware and software I use
 
 ## Hardware
 
-### Laptop - Acer Aspire 3
-
-- AMD A9-9420e RADEON R5
-- AMD Radeon R3/4?
-- x2 Micron/Hynix 4GB DDR4 1866 MHz
-- 1366 x 768 15 inch display
-- TOSHIBA 1TB HDD
-- Crucial 1TB NVMe SSD
-
 ### Desktop
 
 - AMD Ryzen 7 5800X
