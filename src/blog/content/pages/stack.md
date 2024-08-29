@@ -12,12 +12,11 @@ A list of hardware and software I use
 - AMD Ryzen 7 5800X
 - Cooler Master Hyper H412R
 - Gigabyte B550 AORUS ELITE AX V2 ATX AM4 Motherboard
-- 2x Corsair Vengeance RGB Pro 16GB DDR4 3600 MHz
-- WD Black SN770 2TB M.2-2280 PCIe 4.0
+- Corsair Vengeance RGB Pro 32GB DDR4 3600 MHz
+- WD Black SN770 2TB
 - Gigabyte WINDFORCE OC GeForce GTX 1080 8 GB Video Card
 - Fractal Design Meshify C ATX Mid Tower case
 - Corsair TX 650M PSU
-- 2.5 gig Ethernet
 - Logitech M330 Silent Plus Mouse
 - Keychron K2 Keyboard with gateron brown switches
 
@@ -46,7 +45,7 @@ Most of the software I use can be found in my GitHub Stars [here](https://github
 
 ### Current OS
 
-- Ubuntu 23.10 / Windows 10
+- Ubuntu 24.04 / Windows 10
 
 ### IDEs and text editors
 
@@ -74,7 +73,7 @@ Most of the software I use can be found in my GitHub Stars [here](https://github
 
 - Firefox/LibreWolf
 - Extensions
-  - Privacy Badger
+  - Privacy Possum
   - uBlock Origin
   - SponsorBlock
   - Dark Reader
